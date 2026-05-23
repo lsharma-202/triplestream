@@ -1,0 +1,171 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX imdb: <http://example.org/ontology/domain/imdb#>
+PREFIX core: <http://example.org/ontology/core#>
+PREFIX schema: <http://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+imdb:knownForTitle
+    rdf:type owl:ObjectProperty ;
+    rdfs:label "known for title"@en ;
+    rdfs:subPropertyOf schema:knowsAbout ;
+    rdfs:domain core:Person ;
+    rdfs:range imdb:Title ;
+    rdfs:comment "Links a person to a title they are known for. Up to four values per person, exploded from name.basics.knownForTitles. Used as the primary person–title association in this PoC."@en .
+
+
+imdb:primaryTitle
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "primary title"@en ;
+    rdfs:subPropertyOf schema:name ;
+    rdfs:domain imdb:Title ;
+    rdfs:range xsd:string ;
+    rdfs:comment "The primary IMDb display title used on promotional materials at the point of release."@en .
+
+imdb:originalTitle
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "original title"@en ;
+    rdfs:subPropertyOf schema:name ;
+    rdfs:domain imdb:Title ;
+    rdfs:range xsd:string ;
+    rdfs:comment "The original title in the work's primary language, which may differ from the primary display title."@en .
+
+imdb:alternateTitle
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "alternate title"@en ;
+    rdfs:subPropertyOf schema:alternateName ;
+    rdfs:domain imdb:Title ;
+    rdfs:range xsd:string ;
+    rdfs:comment "An alternate title string from title.akas.tsv.gz. Multiple values are stored as repeated plain literals — no RDF list required. Region and language metadata from title.akas are out of scope for this PoC."@en .
+
+imdb:isAdult
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "is adult"@en ;
+    rdfs:domain imdb:Title ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "True if IMDb marks the title as adult content (logical inverse of schema:isFamilyFriendly)."@en ;
+    rdfs:seeAlso schema:isFamilyFriendly .
+
+imdb:startYear
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "start year"@en ;
+    rdfs:subPropertyOf core:startYear ;
+    rdfs:domain imdb:Title ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "Release or first-air year from title.basics.startYear."@en .
+
+imdb:endYear
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "end year"@en ;
+    rdfs:subPropertyOf core:endYear ;
+    rdfs:domain imdb:Title ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "End year for ongoing or concluded series from title.basics.endYear."@en .
+
+imdb:runtimeMinutes
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "runtime minutes"@en ;
+    rdfs:subPropertyOf schema:duration ;
+    rdfs:domain imdb:Title ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Primary runtime of the title in minutes."@en .
+
+imdb:numVotes
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "number of votes"@en ;
+    rdfs:subPropertyOf schema:ratingCount ;
+    rdfs:domain imdb:Title ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Total number of IMDb user votes. Used alongside averageRating to infer imdb:ClassicTitle (threshold: ≥ 1 000 votes)."@en .
+
+imdb:averageRating
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "average rating"@en ;
+    rdfs:subPropertyOf schema:ratingValue ;
+    rdfs:domain imdb:Title ;
+    rdfs:range xsd:float ;
+    rdfs:comment "Weighted average of all IMDb user ratings, on a scale of 1–10. Used alongside numVotes to infer imdb:ClassicTitle (threshold: ≥ 8.0)."@en .
+
+imdb:releasedInRegion
+    rdf:type owl:ObjectProperty ;
+    rdfs:label "released in region"@en ;
+    rdfs:subPropertyOf schema:locationCreated ;
+    rdfs:domain imdb:Title ;
+    rdfs:range schema:Country ;
+    rdfs:comment "The region in which an alternate version of the title was released. Declared for completeness; not populated in this PoC (title.akas region data is out of scope)."@en .
+
+imdb:hasGenre
+    rdf:type owl:ObjectProperty ;
+    rdfs:label "has genre"@en ;
+    rdfs:subPropertyOf schema:genre ;
+    rdfs:domain imdb:Title ;
+    rdfs:range skos:Concept ;
+    rdfs:comment "Links a title to a SKOS Concept in vocab:GenreScheme. Values are exploded from the comma-separated genres field in title.basics."@en .
+
+imdb:episodeNumber
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "episode number"@en ;
+    rdfs:subPropertyOf schema:episodeNumber ;
+    rdfs:domain imdb:TVEpisode ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Position of the episode within its season. Non-negative integer."@en .
+
+imdb:seasonNumber
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "season number"@en ;
+    rdfs:subPropertyOf schema:seasonNumber ;
+    rdfs:domain imdb:TVEpisode ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Season to which this episode belongs. Non-negative integer."@en .
+
+imdb:partOfSeries
+    rdf:type owl:ObjectProperty ;
+    rdfs:label "part of series"@en ;
+    rdfs:subPropertyOf schema:partOfSeries ;
+    rdfs:domain imdb:TVEpisode ;
+    rdfs:range imdb:TVSeries, imdb:TVMiniSeries ;
+    rdfs:comment "Links an episode to its parent TV series or mini-series."@en .
+
+imdb:hasEpisode
+    rdf:type owl:ObjectProperty ;
+    rdfs:label "has episode"@en ;
+    owl:inverseOf imdb:partOfSeries ;
+    rdfs:subPropertyOf schema:episode ;
+    rdfs:comment "Inverse of imdb:partOfSeries. Links a series to its constituent episodes."@en .
+
+
+imdb:directedBy
+    rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf schema:director ;
+    rdfs:label "Directed by"@en ;
+    rdfs:comment "Relates a title to the person who directed it."@en ;
+    rdfs:domain imdb:Title ;
+    rdfs:range core:Person .
+
+imdb:writtenBy
+    rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf schema:writer ;
+    rdfs:label "Written by"@en ;
+    rdfs:comment "Relates a title to the person who wrote it."@en ;
+    rdfs:domain imdb:Title ;
+    rdfs:range core:Person .
+
+# ── Inferred relationship properties ─────────────────────────────────────────
+# Not stored in the KG; derived by osint infer via SPARQL CONSTRUCT rules.
+
+imdb:coActorWith
+    rdf:type owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:label "co-actor with"@en ;
+    rdfs:domain core:Person ;
+    rdfs:range core:Person ;
+    rdfs:comment "Derived: two persons appear together via shared imdb:knownForTitle links. Symmetric — if A coActorWith B then B coActorWith A."@en .
+
+imdb:workedOnGenre
+    rdf:type owl:ObjectProperty ;
+    rdfs:label "worked on genre"@en ;
+    rdfs:domain core:Person ;
+    rdfs:range skos:Concept ;
+    rdfs:comment "Derived: a person is associated with a genre via the genres of their imdb:knownForTitle titles."@en .

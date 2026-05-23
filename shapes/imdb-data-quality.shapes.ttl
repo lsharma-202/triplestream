@@ -1,0 +1,118 @@
+PREFIX imdb-sh: <http://example.org/shapes/domain/imdb#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX core: <http://example.org/ontology/core#>
+PREFIX imdb: <http://example.org/ontology/domain/imdb#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://example.org/shapes/domain/imdb>
+    rdf:type owl:Ontology ;
+    rdfs:label "IMDb Data Quality Shapes"@en ;
+    owl:versionInfo "v0.1.0" ;
+    rdfs:comment "SHACL NodeShapes enforcing ABox data quality on IMDb KG instance data. Covers core:Person, imdb:Title, and imdb:TVEpisode."@en .
+
+:PersonDataQualityShape
+    a sh:NodeShape ;
+    sh:targetClass core:Person ;
+    sh:name "Person data quality constraints"@en ;
+    sh:property [
+        sh:path core:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:message "core:name is required for all core:Person resources."@en ;
+    ] ;
+    sh:property [
+        sh:path core:birthYear ;
+        sh:datatype xsd:gYear ;
+        sh:minCount 0 ;
+        sh:message "core:birthYear must be an xsd:gYear when present."@en ;
+        sh:severity sh:Warning ;
+    ] ;
+    sh:property [
+        sh:path core:deathYear ;
+        sh:datatype xsd:gYear ;
+        sh:minCount 0 ;
+        sh:message "core:deathYear must be an integer when present."@en ;
+    ] ;
+    sh:property [
+        sh:path core:hasProfession ;
+        sh:minCount 0 ;
+        sh:message "core:hasProfession is optional (profession details are validated by existing shapes)."@en ;
+    ] .
+
+:TitleDataQualityShape
+    a sh:NodeShape ;
+    sh:targetClass imdb:Title ;
+    sh:name "Title data quality constraints"@en ;
+    sh:property [
+        sh:path imdb:primaryTitle ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:message "imdb:primaryTitle is required for all imdb:Title resources."@en ;
+    ] ;
+    sh:property [
+        sh:path imdb:originalTitle ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:message "imdb:originalTitle is required for all imdb:Title resources."@en ;
+    ] ;
+    sh:property [
+        sh:path imdb:isAdult ;
+        sh:datatype xsd:boolean ;
+        sh:minCount 0 ;
+        sh:message "imdb:isAdult must be an xsd:boolean when present."@en ;
+    ] ;
+    sh:property [
+        sh:path imdb:startYear ;
+        sh:datatype xsd:gYear ;
+        sh:minCount 0 ;
+        sh:message "imdb:startYear must be an xsd:gYear when present."@en ;
+    ] ;
+    sh:property [
+        sh:path imdb:endYear ;
+        sh:datatype xsd:gYear ;
+        sh:minCount 0 ;
+        sh:message "imdb:endYear must be an xsd:gYear when present."@en ;
+    ] ;
+    sh:property [
+        sh:path imdb:runtimeMinutes ;
+        sh:datatype xsd:integer ;
+        sh:minCount 0 ;
+        sh:message "imdb:runtimeMinutes must be an integer when present."@en ;
+    ] ;
+    sh:property [
+        sh:path imdb:hasGenre ;
+        sh:minCount 0 ;
+        sh:nodeKind sh:IRI ;
+        sh:class skos:Concept ;
+        sh:severity sh:Warning ;
+        sh:message "imdb:hasGenre values must be skos:Concept IRIs when present."@en ;
+    ] .
+
+:EpisodeDataQualityShape
+    a sh:NodeShape ;
+    sh:name "Episode data quality constraints"@en ;
+    sh:targetSubjectsOf imdb:episodeNumber ;
+    sh:property [
+        sh:path imdb:partOfSeries ;
+        sh:nodeKind sh:IRI ;
+        sh:class imdb:Title ;
+        sh:minCount 1 ;
+        sh:message "Episode resources must link imdb:partOfSeries to an imdb:Title."@en ;
+    ] ;
+    sh:property [
+        sh:path imdb:seasonNumber ;
+        sh:datatype xsd:integer ;
+        sh:minCount 1 ;
+        sh:message "Episode resources must have an integer imdb:seasonNumber."@en ;
+    ] ;
+    sh:property [
+        sh:path imdb:episodeNumber ;
+        sh:datatype xsd:integer ;
+        sh:minCount 1 ;
+        sh:message "Episode resources must have an integer imdb:episodeNumber."@en ;
+    ] .
+

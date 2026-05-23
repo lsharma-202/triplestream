@@ -1,0 +1,158 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX vocab: <http://example.org/ontology/domain/imdb/vocab#>
+
+<http://example.org/ontology/domain/imdb/vocab>
+    rdf:type owl:Ontology ;
+    rdfs:label "IMDb Genre Vocabulary"@en ;
+    owl:versionInfo "v0.1.0" ;
+    dcterms:description "Flat SKOS ConceptScheme of 28 IMDb genre values derived from the genres field in title.basics.tsv.gz. Concepts are used as object values for imdb:hasGenre."@en ;
+    dcterms:source <https://developer.imdb.com/non-commercial-datasets/> .
+
+vocab:GenreScheme
+   rdf:type skos:ConceptScheme ;
+   skos:prefLabel "IMDb Genres"@en ;
+   skos:definition "A controlled vocabulary of genres for titles in the IMDb dataset."@en .
+
+vocab:action
+   rdf:type skos:Concept ;
+   skos:prefLabel "Action"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:adult
+   rdf:type skos:Concept ;
+   skos:prefLabel "Adult"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:adventure
+   rdf:type skos:Concept ;
+   skos:prefLabel "Adventure"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:animation
+   rdf:type skos:Concept ;
+   skos:prefLabel "Animation"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:biography
+   rdf:type skos:Concept ;
+   skos:prefLabel "Biography"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:comedy
+   rdf:type skos:Concept ;
+   skos:prefLabel "Comedy"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:crime
+   rdf:type skos:Concept ;
+   skos:prefLabel "Crime"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:documentary
+   rdf:type skos:Concept ;
+   skos:prefLabel "Documentary"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:drama
+   rdf:type skos:Concept ;
+   skos:prefLabel "Drama"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:family
+   rdf:type skos:Concept ;
+   skos:prefLabel "Family"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:fantasy
+   rdf:type skos:Concept ;
+   skos:prefLabel "Fantasy"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:film-noir
+   rdf:type skos:Concept ;
+   skos:prefLabel "Film-Noir"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:game-show
+   rdf:type skos:Concept ;
+   skos:prefLabel "Game-Show"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:history
+   rdf:type skos:Concept ;
+   skos:prefLabel "History"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:horror
+   rdf:type skos:Concept ;
+   skos:prefLabel "Horror"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:music
+   rdf:type skos:Concept ;
+   skos:prefLabel "Music"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:musical
+   rdf:type skos:Concept ;
+   skos:prefLabel "Musical"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:mystery
+   rdf:type skos:Concept ;
+   skos:prefLabel "Mystery"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:news
+   rdf:type skos:Concept ;
+   skos:prefLabel "News"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:reality-tv
+   rdf:type skos:Concept ;
+   skos:prefLabel "Reality-TV"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:romance
+   rdf:type skos:Concept ;
+   skos:prefLabel "Romance"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:sci-fi
+   rdf:type skos:Concept ;
+   skos:prefLabel "Sci-Fi"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:short
+   rdf:type skos:Concept ;
+   skos:prefLabel "Short"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:sport
+   rdf:type skos:Concept ;
+   skos:prefLabel "Sport"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:talk-show
+   rdf:type skos:Concept ;
+   skos:prefLabel "Talk-Show"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:thriller
+   rdf:type skos:Concept ;
+   skos:prefLabel "Thriller"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:war
+   rdf:type skos:Concept ;
+   skos:prefLabel "War"@en ;
+   skos:inScheme vocab:GenreScheme .
+
+vocab:western
+   rdf:type skos:Concept ;
+   skos:prefLabel "Western"@en ;
+   skos:inScheme vocab:GenreScheme .

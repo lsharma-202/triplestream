@@ -1,0 +1,61 @@
+PREFIX core: <http://example.org/ontology/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX schema: <http://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+
+core:name
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "Name"@en ;
+    rdfs:subPropertyOf schema:name ;
+    rdfs:domain core:Person ;
+    rdfs:range xsd:string ;
+    rdfs:comment "The primary name for a person."@en .
+
+
+core:hasProfession
+    rdf:type owl:ObjectProperty ;
+    rdfs:label "Has Profession"@en ;
+    rdfs:subPropertyOf schema:hasOccupation ;
+    rdfs:domain core:Person ;
+    rdfs:range skos:Concept ;
+    rdfs:comment "Links a person to a SKOS Concept in the IMDb Professions scheme. Up to three values per person, derived from name.basics.primaryProfession."@en .
+
+core:year
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "Year"@en ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "A generic property to capture a year. Serves as a base for specific year properties."@en .
+
+core:startYear
+    rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf core:year ;
+    rdfs:label "Start Year"@en ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "The year something began (e.g., a Movie's release, a Company's founding, a Person's birth)."@en .
+
+core:endYear
+    rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf core:year ;
+    rdfs:label "End Year"@en ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "The year something ended (e.g., a Person's death, a Company's dissolution)."@en .
+
+core:birthYear
+    rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf core:startYear ;
+    rdfs:label "Birth Year"@en ;
+    rdfs:domain core:Person ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "The year of birth. Materialized to optimize SPARQL year-based range queries."@en .
+
+core:deathYear
+    rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf core:endYear ;
+    rdfs:label "Death Year"@en ;
+    rdfs:domain core:Person ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "The year of death. Materialized to optimize SPARQL year-based range queries."@en .

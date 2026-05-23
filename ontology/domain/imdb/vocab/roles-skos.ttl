@@ -1,0 +1,248 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX Vocabulary: <http://example.org/ontology/domain/imdb/vocab#>
+
+<http://example.org/ontology/domain/imdb/vocab/roles>
+    rdf:type owl:Ontology ;
+    rdfs:label "IMDb Profession Vocabulary"@en ;
+    owl:versionInfo "v0.1.0" ;
+    dcterms:description "Flat SKOS ConceptScheme of 44 IMDb profession values derived from the primaryProfession field in name.basics.tsv.gz. Concepts are used as object values for core:hasProfession and validated by shapes/domain/imdb/imdb-roles.shapes.ttl."@en ;
+    dcterms:source <https://developer.imdb.com/non-commercial-datasets/> .
+
+vocab:ProfessionScheme
+   rdf:type skos:ConceptScheme ;
+   skos:prefLabel "IMDb Professions"@en ;
+   skos:definition "A controlled vocabulary of primary professions for individuals in the IMDb dataset."@en .
+
+vocab:accountant
+   rdf:type skos:Concept ;
+   skos:prefLabel "Accountant"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:actor
+   rdf:type skos:Concept ;
+   skos:prefLabel "Actor"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:actress
+   rdf:type skos:Concept ;
+   skos:prefLabel "Actress"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:animation_department
+   rdf:type skos:Concept ;
+   skos:prefLabel "Animation Department"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:archive_footage
+   rdf:type skos:Concept ;
+   skos:prefLabel "Archive Footage"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:archive_sound
+   rdf:type skos:Concept ;
+   skos:prefLabel "Archive Sound"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:art_department
+   rdf:type skos:Concept ;
+   skos:prefLabel "Art Department"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:art_director
+   rdf:type skos:Concept ;
+   skos:prefLabel "Art Director"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:assistant
+   rdf:type skos:Concept ;
+   skos:prefLabel "Assistant"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:assistant_director
+   rdf:type skos:Concept ;
+   skos:prefLabel "Assistant Director"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:camera_department
+   rdf:type skos:Concept ;
+   skos:prefLabel "Camera Department"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:casting_department
+   rdf:type skos:Concept ;
+   skos:prefLabel "Casting Department"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:casting_director
+   rdf:type skos:Concept ;
+   skos:prefLabel "Casting Director"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:choreographer
+   rdf:type skos:Concept ;
+   skos:prefLabel "Choreographer"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:cinematographer
+   rdf:type skos:Concept ;
+   skos:prefLabel "Cinematographer"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:composer
+   rdf:type skos:Concept ;
+   skos:prefLabel "Composer"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:costume_department
+   rdf:type skos:Concept ;
+   skos:prefLabel "Costume Department"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:costume_designer
+   rdf:type skos:Concept ;
+   skos:prefLabel "Costume Designer"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:director
+   rdf:type skos:Concept ;
+   skos:prefLabel "Director"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:editor
+   rdf:type skos:Concept ;
+   skos:prefLabel "Editor"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:editorial_department
+   rdf:type skos:Concept ;
+   skos:prefLabel "Editorial Department"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:electrical_department
+   rdf:type skos:Concept ;
+   skos:prefLabel "Electrical Department"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:executive
+   rdf:type skos:Concept ;
+   skos:prefLabel "Executive"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:legal
+   rdf:type skos:Concept ;
+   skos:prefLabel "Legal"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:location_management
+   rdf:type skos:Concept ;
+   skos:prefLabel "Location Management"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:make_up_department
+   rdf:type skos:Concept ;
+   skos:prefLabel "Make Up Department"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:manager
+   rdf:type skos:Concept ;
+   skos:prefLabel "Manager"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:miscellaneous
+   rdf:type skos:Concept ;
+   skos:prefLabel "Miscellaneous"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:music_artist
+   rdf:type skos:Concept ;
+   skos:prefLabel "Music Artist"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:music_department
+   rdf:type skos:Concept ;
+   skos:prefLabel "Music Department"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:podcaster
+   rdf:type skos:Concept ;
+   skos:prefLabel "Podcaster"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:producer
+   rdf:type skos:Concept ;
+   skos:prefLabel "Producer"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:production_department
+   rdf:type skos:Concept ;
+   skos:prefLabel "Production Department"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:production_designer
+   rdf:type skos:Concept ;
+   skos:prefLabel "Production Designer"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:production_manager
+   rdf:type skos:Concept ;
+   skos:prefLabel "Production Manager"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:publicist
+   rdf:type skos:Concept ;
+   skos:prefLabel "Publicist"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:script_department
+   rdf:type skos:Concept ;
+   skos:prefLabel "Script Department"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:set_decorator
+   rdf:type skos:Concept ;
+   skos:prefLabel "Set Decorator"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:sound_department
+   rdf:type skos:Concept ;
+   skos:prefLabel "Sound Department"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:soundtrack
+   rdf:type skos:Concept ;
+   skos:prefLabel "Soundtrack"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:special_effects
+   rdf:type skos:Concept ;
+   skos:prefLabel "Special Effects"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:stunts
+   rdf:type skos:Concept ;
+   skos:prefLabel "Stunts"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:talent_agent
+   rdf:type skos:Concept ;
+   skos:prefLabel "Talent Agent"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:transportation_department
+   rdf:type skos:Concept ;
+   skos:prefLabel "Transportation Department"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:visual_effects
+   rdf:type skos:Concept ;
+   skos:prefLabel "Visual Effects"@en ;
+   skos:inScheme vocab:ProfessionScheme .
+
+vocab:writer
+   rdf:type skos:Concept ;
+   skos:prefLabel "Writer"@en ;
+   skos:inScheme vocab:ProfessionScheme .

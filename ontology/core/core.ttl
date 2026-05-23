@@ -1,0 +1,30 @@
+PREFIX core: <http://example.org/ontology/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <http://schema.org/>
+
+
+core:
+    rdf:type owl:Ontology ;
+    rdfs:label "Core ontology"@en ;
+    owl:versionInfo "v0.1.0" ;
+    owl:versionIRI <http://example.org/ontology/core/v0.1.0> ;
+    rdfs:comment
+        """Contract: this module contains reusable, source-agnostic concepts that are expected to remain stable as new datasets are added. It should define lightweight classes and properties shared across domains, align them to external vocabularies where useful, and avoid source-specific columns, codes, and business rules. Dataset-specific semantics belong in domain modules; validation expectations belong in SHACL shapes; operational lineage should reference these core concepts through PROV metadata or named graphs."""@en .
+
+
+core:CreativeWork
+    rdf:type owl:Class ;
+    rdfs:subClassOf schema:CreativeWork ;
+    rdfs:label "CreativeWork"@en ;
+    rdfs:comment "A reusable abstraction for media, documents, posts, or other authored works."@en .
+
+core:Person
+    rdf:type owl:Class ;
+    rdfs:subClassOf schema:Person ;
+    rdfs:label "Person"@en ;
+    rdfs:comment "A human person that may be referenced by multiple source datasets."@en .
+

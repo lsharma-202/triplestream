@@ -1,0 +1,22 @@
+PREFIX platform: <http://example.org/ontology/platform#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <http://schema.org/>
+
+
+
+platform:
+    rdf:type owl:Ontology ;
+    rdfs:label "Platform Ontology"@en ;
+    owl:versionInfo "v0.1.0" ;
+    owl:versionIRI <http://example.org/ontology/platform/v0.1.0> ;
+    rdfs:comment "Cross-pipeline platform concepts: data sources, ingest activities, named-graph conventions."@en .
+
+platform:DataSource
+    rdf:type owl:Class ;
+    rdfs:subClassOf prov:Entity, schema:Dataset ;
+    rdfs:label "Data Source"@en ;
+    rdfs:comment "A source dataset, feed, file collection, API, or curated reference set from which graph assertions may be derived. Use this for dataset-level provenance; attach statement-level provenance through named graphs, RDF-star, or reification only when that granularity is required."@en .

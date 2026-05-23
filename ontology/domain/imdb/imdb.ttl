@@ -1,0 +1,101 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX imdb: <http://example.org/ontology/domain/imdb#>
+PREFIX core: <http://example.org/ontology/core#>
+PREFIX schema: <http://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+imdb:
+    rdf:type owl:Ontology ;
+    rdfs:label "IMDb Domain Ontology"@en ;
+    owl:versionInfo "v0.1.0" ;
+    owl:versionIRI <http://example.org/ontology/domain/imdb/v0.1.0> ;
+    rdfs:comment "Domain ontology for IMDb tabular data. Covers persons (name.basics), title types (title.basics), alternate titles (title.akas), episode hierarchies (title.episode), and ratings (title.ratings). Extends core: for reusable concepts and aligns title-type subclasses to Schema.org. ClassicTitle and CrossoverTitle are inference-only subclasses derived at runtime by osint infer — they are never stored in the KG."@en .
+
+imdb:Title
+    rdf:type owl:Class ;
+    rdfs:subClassOf core:CreativeWork ;
+    rdfs:label "Title"@en ;
+    rdfs:comment "A base class representing any piece of media from IMDb."@en .
+
+imdb:Movie
+    rdf:type owl:Class ;
+    rdfs:subClassOf imdb:Title, schema:Movie ;
+    rdfs:label "Movie"@en ;
+    rdfs:comment "A feature-length motion picture."@en .
+
+imdb:Short
+    rdf:type owl:Class ;
+    rdfs:subClassOf imdb:Title, schema:Movie ;
+    rdfs:label "Short"@en ;
+    rdfs:comment "A short motion picture, typically under 40 minutes in length."@en .
+
+imdb:TVEpisode
+    rdf:type owl:Class ;
+    rdfs:subClassOf imdb:Title, schema:TVEpisode ;
+    rdfs:label "TV Episode"@en ;
+    rdfs:comment "A single episode of a television series."@en .
+
+imdb:TVMiniSeries
+    rdf:type owl:Class ;
+    rdfs:subClassOf imdb:Title, schema:TVSeries ;
+    rdfs:label "TV Mini-Series"@en ;
+    rdfs:comment "A television series with a predetermined, limited number of episodes."@en .
+
+imdb:TVMovie
+    rdf:type owl:Class ;
+    rdfs:subClassOf imdb:Title, schema:Movie ;
+    rdfs:label "TV Movie"@en ;
+    rdfs:comment "A movie created specifically for television broadcast."@en .
+
+imdb:TVPilot
+    rdf:type owl:Class ;
+    rdfs:subClassOf imdb:Title, schema:TVEpisode ;
+    rdfs:label "TV Pilot"@en ;
+    rdfs:comment "A standalone episode of a television series that is used to sell the show to a television network."@en .
+
+imdb:TVSeries
+    rdf:type owl:Class ;
+    rdfs:subClassOf imdb:Title, schema:TVSeries ;
+    rdfs:label "TV Series"@en ;
+    rdfs:comment "A television series."@en .
+
+imdb:TVShort
+    rdf:type owl:Class ;
+    rdfs:subClassOf imdb:Title, schema:Movie ;
+    rdfs:label "TV Short"@en ;
+    rdfs:comment "A short movie created specifically for television broadcast."@en .
+
+imdb:TVSpecial
+    rdf:type owl:Class ;
+    rdfs:subClassOf imdb:Title, schema:TVEpisode ;
+    rdfs:label "TV Special"@en ;
+    rdfs:comment "A standalone television program that temporarily interrupts regular programming."@en .
+
+imdb:Video
+    rdf:type owl:Class ;
+    rdfs:subClassOf imdb:Title, schema:VideoObject ;
+    rdfs:label "Video"@en ;
+    rdfs:comment "A video recording, such as a direct-to-video release."@en .
+
+imdb:VideoGame
+    rdf:type owl:Class ;
+    rdfs:subClassOf imdb:Title, schema:VideoGame ;
+    rdfs:label "Video Game"@en ;
+    rdfs:comment "An interactive video game."@en .
+
+imdb:ClassicTitle
+    rdf:type owl:Class ;
+    rdfs:subClassOf imdb:Title ;
+    rdfs:label "Classic Title"@en ;
+    rdfs:comment "A title inferred to be a classic: averageRating ≥ 8.0 and numVotes ≥ 1 000. Not stored in the KG; derived by the inference engine."@en .
+
+imdb:CrossoverTitle
+    rdf:type owl:Class ;
+    rdfs:subClassOf imdb:Title ;
+    rdfs:label "Crossover Title"@en ;
+    rdfs:comment "A title for which two or more notable persons (via imdb:knownForTitle) are known. Signals culturally significant works. Derived by inference."@en .
