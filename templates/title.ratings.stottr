@@ -1,0 +1,7 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/>.
+@prefix imdb: <http://example.org/ontology/domain/imdb#>.
+
+imdb:TitleRatingTemplate [ ottr:IRI ?tconst, ??averageRating, ??numVotes ] :: {
+    ottr:Triple(?tconst, imdb:averageRating, ?averageRating),
+    ottr:Triple(?tconst, imdb:numVotes, ?numVotes)
+} .

@@ -1,0 +1,19 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix core: <http://example.org/ontology/core#>.
+@prefix imdb: <http://example.org/ontology/domain/imdb#>.
+
+imdb:PersonTemplate [ ottr:IRI ?nconst, ??primaryName, ??birthYear, ??deathYear ] :: {
+    ottr:Triple(?nconst, rdf:type, core:Person),
+    ottr:Triple(?nconst, core:name, ?primaryName),
+    ottr:Triple(?nconst, core:birthYear, ?birthYear),
+    ottr:Triple(?nconst, core:deathYear, ?deathYear)
+} .
+
+imdb:HasProfessionTemplate [ ottr:IRI ?nconst, ottr:IRI ??profession ] :: {
+    ottr:Triple(?nconst, core:hasProfession, ?profession)
+} .
+
+imdb:KnownForTitleTemplate [ ottr:IRI ?nconst, ottr:IRI ??knownForTitle ] :: {
+    ottr:Triple(?nconst, imdb:knownForTitle, ?knownForTitle)
+} .

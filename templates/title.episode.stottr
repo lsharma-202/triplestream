@@ -1,0 +1,8 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/>.
+@prefix imdb: <http://example.org/ontology/domain/imdb#>.
+
+imdb:EpisodeOfTemplate [ ottr:IRI ?episode, ottr:IRI ?series, ??seasonNumber, ??episodeNumber ] :: {
+    ottr:Triple(?episode, imdb:partOfSeries, ?series),
+    ottr:Triple(?episode, imdb:seasonNumber, ?seasonNumber),
+    ottr:Triple(?episode, imdb:episodeNumber, ?episodeNumber)
+} .

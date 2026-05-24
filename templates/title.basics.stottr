@@ -1,0 +1,18 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix imdb: <http://example.org/ontology/domain/imdb#>.
+
+imdb:TitleTemplate [ ottr:IRI ?tconst, ??titleType, ??primaryTitle, ??originalTitle, ??isAdult, ??startYear, ??endYear, ??runtimeMinutes ] :: {
+    ottr:Triple(?tconst, rdf:type, imdb:Title),
+    ottr:Triple(?tconst, rdf:type, ?titleType),
+    ottr:Triple(?tconst, imdb:primaryTitle, ?primaryTitle),
+    ottr:Triple(?tconst, imdb:originalTitle, ?originalTitle),
+    ottr:Triple(?tconst, imdb:isAdult, ?isAdult),
+    ottr:Triple(?tconst, imdb:startYear, ?startYear),
+    ottr:Triple(?tconst, imdb:endYear, ?endYear),
+    ottr:Triple(?tconst, imdb:runtimeMinutes, ?runtimeMinutes)
+} .
+
+imdb:TitleGenreTemplate [ ottr:IRI ?tconst, ottr:IRI ??genre ] :: {
+    ottr:Triple(?tconst, imdb:hasGenre, ?genre)
+} .
