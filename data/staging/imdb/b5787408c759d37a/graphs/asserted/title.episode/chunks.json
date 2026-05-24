@@ -1,0 +1,593 @@
+{
+  "transform_id": "title-episode",
+  "tsv_stem": "title.episode",
+  "input_content_hash": "6cad49ad9f7c79a5db42498af81d941eba7d3a6fabadb594811bc85cc35862d6",
+  "transform_spec": "materialize-title-episode@v1",
+  "graph_iri": "http://example.org/graph/asserted/imdb/b5787408c759d37a/title.episode",
+  "total_rows": 9667909,
+  "total_triples": 25000911,
+  "parts": [
+    {
+      "part_index": 0,
+      "path": "graphs/work/title.episode/part-00000.nq",
+      "rows": 100000,
+      "triples": 269888
+    },
+    {
+      "part_index": 1,
+      "path": "graphs/work/title.episode/part-00001.nq",
+      "rows": 100000,
+      "triples": 262942
+    },
+    {
+      "part_index": 2,
+      "path": "graphs/work/title.episode/part-00002.nq",
+      "rows": 100000,
+      "triples": 268764
+    },
+    {
+      "part_index": 3,
+      "path": "graphs/work/title.episode/part-00003.nq",
+      "rows": 100000,
+      "triples": 266500
+    },
+    {
+      "part_index": 4,
+      "path": "graphs/work/title.episode/part-00004.nq",
+      "rows": 100000,
+      "triples": 267932
+    },
+    {
+      "part_index": 5,
+      "path": "graphs/work/title.episode/part-00005.nq",
+      "rows": 100000,
+      "triples": 258022
+    },
+    {
+      "part_index": 6,
+      "path": "graphs/work/title.episode/part-00006.nq",
+      "rows": 100000,
+      "triples": 269366
+    },
+    {
+      "part_index": 7,
+      "path": "graphs/work/title.episode/part-00007.nq",
+      "rows": 100000,
+      "triples": 263824
+    },
+    {
+      "part_index": 8,
+      "path": "graphs/work/title.episode/part-00008.nq",
+      "rows": 100000,
+      "triples": 253768
+    },
+    {
+      "part_index": 9,
+      "path": "graphs/work/title.episode/part-00009.nq",
+      "rows": 100000,
+      "triples": 268062
+    },
+    {
+      "part_index": 10,
+      "path": "graphs/work/title.episode/part-00010.nq",
+      "rows": 100000,
+      "triples": 266452
+    },
+    {
+      "part_index": 11,
+      "path": "graphs/work/title.episode/part-00011.nq",
+      "rows": 100000,
+      "triples": 260914
+    },
+    {
+      "part_index": 12,
+      "path": "graphs/work/title.episode/part-00012.nq",
+      "rows": 100000,
+      "triples": 267072
+    },
+    {
+      "part_index": 13,
+      "path": "graphs/work/title.episode/part-00013.nq",
+      "rows": 100000,
+      "triples": 269418
+    },
+    {
+      "part_index": 14,
+      "path": "graphs/work/title.episode/part-00014.nq",
+      "rows": 100000,
+      "triples": 270374
+    },
+    {
+      "part_index": 15,
+      "path": "graphs/work/title.episode/part-00015.nq",
+      "rows": 100000,
+      "triples": 271626
+    },
+    {
+      "part_index": 16,
+      "path": "graphs/work/title.episode/part-00016.nq",
+      "rows": 100000,
+      "triples": 268672
+    },
+    {
+      "part_index": 17,
+      "path": "graphs/work/title.episode/part-00017.nq",
+      "rows": 100000,
+      "triples": 268520
+    },
+    {
+      "part_index": 18,
+      "path": "graphs/work/title.episode/part-00018.nq",
+      "rows": 100000,
+      "triples": 263762
+    },
+    {
+      "part_index": 19,
+      "path": "graphs/work/title.episode/part-00019.nq",
+      "rows": 100000,
+      "triples": 261650
+    },
+    {
+      "part_index": 20,
+      "path": "graphs/work/title.episode/part-00020.nq",
+      "rows": 100000,
+      "triples": 266154
+    },
+    {
+      "part_index": 21,
+      "path": "graphs/work/title.episode/part-00021.nq",
+      "rows": 100000,
+      "triples": 267794
+    },
+    {
+      "part_index": 22,
+      "path": "graphs/work/title.episode/part-00022.nq",
+      "rows": 100000,
+      "triples": 265384
+    },
+    {
+      "part_index": 23,
+      "path": "graphs/work/title.episode/part-00023.nq",
+      "rows": 100000,
+      "triples": 267890
+    },
+    {
+      "part_index": 24,
+      "path": "graphs/work/title.episode/part-00024.nq",
+      "rows": 100000,
+      "triples": 262120
+    },
+    {
+      "part_index": 25,
+      "path": "graphs/work/title.episode/part-00025.nq",
+      "rows": 100000,
+      "triples": 264724
+    },
+    {
+      "part_index": 26,
+      "path": "graphs/work/title.episode/part-00026.nq",
+      "rows": 100000,
+      "triples": 261296
+    },
+    {
+      "part_index": 27,
+      "path": "graphs/work/title.episode/part-00027.nq",
+      "rows": 100000,
+      "triples": 263552
+    },
+    {
+      "part_index": 28,
+      "path": "graphs/work/title.episode/part-00028.nq",
+      "rows": 100000,
+      "triples": 264964
+    },
+    {
+      "part_index": 29,
+      "path": "graphs/work/title.episode/part-00029.nq",
+      "rows": 100000,
+      "triples": 212768
+    },
+    {
+      "part_index": 30,
+      "path": "graphs/work/title.episode/part-00030.nq",
+      "rows": 100000,
+      "triples": 202226
+    },
+    {
+      "part_index": 31,
+      "path": "graphs/work/title.episode/part-00031.nq",
+      "rows": 100000,
+      "triples": 218776
+    },
+    {
+      "part_index": 32,
+      "path": "graphs/work/title.episode/part-00032.nq",
+      "rows": 100000,
+      "triples": 260696
+    },
+    {
+      "part_index": 33,
+      "path": "graphs/work/title.episode/part-00033.nq",
+      "rows": 100000,
+      "triples": 265888
+    },
+    {
+      "part_index": 34,
+      "path": "graphs/work/title.episode/part-00034.nq",
+      "rows": 100000,
+      "triples": 256450
+    },
+    {
+      "part_index": 35,
+      "path": "graphs/work/title.episode/part-00035.nq",
+      "rows": 100000,
+      "triples": 256242
+    },
+    {
+      "part_index": 36,
+      "path": "graphs/work/title.episode/part-00036.nq",
+      "rows": 100000,
+      "triples": 242988
+    },
+    {
+      "part_index": 37,
+      "path": "graphs/work/title.episode/part-00037.nq",
+      "rows": 100000,
+      "triples": 235958
+    },
+    {
+      "part_index": 38,
+      "path": "graphs/work/title.episode/part-00038.nq",
+      "rows": 100000,
+      "triples": 235596
+    },
+    {
+      "part_index": 39,
+      "path": "graphs/work/title.episode/part-00039.nq",
+      "rows": 100000,
+      "triples": 240660
+    },
+    {
+      "part_index": 40,
+      "path": "graphs/work/title.episode/part-00040.nq",
+      "rows": 100000,
+      "triples": 259416
+    },
+    {
+      "part_index": 41,
+      "path": "graphs/work/title.episode/part-00041.nq",
+      "rows": 100000,
+      "triples": 253000
+    },
+    {
+      "part_index": 42,
+      "path": "graphs/work/title.episode/part-00042.nq",
+      "rows": 100000,
+      "triples": 264598
+    },
+    {
+      "part_index": 43,
+      "path": "graphs/work/title.episode/part-00043.nq",
+      "rows": 100000,
+      "triples": 247102
+    },
+    {
+      "part_index": 44,
+      "path": "graphs/work/title.episode/part-00044.nq",
+      "rows": 100000,
+      "triples": 247160
+    },
+    {
+      "part_index": 45,
+      "path": "graphs/work/title.episode/part-00045.nq",
+      "rows": 100000,
+      "triples": 261174
+    },
+    {
+      "part_index": 46,
+      "path": "graphs/work/title.episode/part-00046.nq",
+      "rows": 100000,
+      "triples": 262524
+    },
+    {
+      "part_index": 47,
+      "path": "graphs/work/title.episode/part-00047.nq",
+      "rows": 100000,
+      "triples": 267284
+    },
+    {
+      "part_index": 48,
+      "path": "graphs/work/title.episode/part-00048.nq",
+      "rows": 100000,
+      "triples": 249164
+    },
+    {
+      "part_index": 49,
+      "path": "graphs/work/title.episode/part-00049.nq",
+      "rows": 100000,
+      "triples": 261034
+    },
+    {
+      "part_index": 50,
+      "path": "graphs/work/title.episode/part-00050.nq",
+      "rows": 100000,
+      "triples": 265038
+    },
+    {
+      "part_index": 51,
+      "path": "graphs/work/title.episode/part-00051.nq",
+      "rows": 100000,
+      "triples": 264840
+    },
+    {
+      "part_index": 52,
+      "path": "graphs/work/title.episode/part-00052.nq",
+      "rows": 100000,
+      "triples": 267280
+    },
+    {
+      "part_index": 53,
+      "path": "graphs/work/title.episode/part-00053.nq",
+      "rows": 100000,
+      "triples": 263648
+    },
+    {
+      "part_index": 54,
+      "path": "graphs/work/title.episode/part-00054.nq",
+      "rows": 100000,
+      "triples": 252678
+    },
+    {
+      "part_index": 55,
+      "path": "graphs/work/title.episode/part-00055.nq",
+      "rows": 100000,
+      "triples": 254452
+    },
+    {
+      "part_index": 56,
+      "path": "graphs/work/title.episode/part-00056.nq",
+      "rows": 100000,
+      "triples": 253438
+    },
+    {
+      "part_index": 57,
+      "path": "graphs/work/title.episode/part-00057.nq",
+      "rows": 100000,
+      "triples": 258756
+    },
+    {
+      "part_index": 58,
+      "path": "graphs/work/title.episode/part-00058.nq",
+      "rows": 100000,
+      "triples": 257988
+    },
+    {
+      "part_index": 59,
+      "path": "graphs/work/title.episode/part-00059.nq",
+      "rows": 100000,
+      "triples": 255592
+    },
+    {
+      "part_index": 60,
+      "path": "graphs/work/title.episode/part-00060.nq",
+      "rows": 100000,
+      "triples": 260900
+    },
+    {
+      "part_index": 61,
+      "path": "graphs/work/title.episode/part-00061.nq",
+      "rows": 100000,
+      "triples": 263372
+    },
+    {
+      "part_index": 62,
+      "path": "graphs/work/title.episode/part-00062.nq",
+      "rows": 100000,
+      "triples": 265240
+    },
+    {
+      "part_index": 63,
+      "path": "graphs/work/title.episode/part-00063.nq",
+      "rows": 100000,
+      "triples": 254054
+    },
+    {
+      "part_index": 64,
+      "path": "graphs/work/title.episode/part-00064.nq",
+      "rows": 100000,
+      "triples": 242742
+    },
+    {
+      "part_index": 65,
+      "path": "graphs/work/title.episode/part-00065.nq",
+      "rows": 100000,
+      "triples": 236922
+    },
+    {
+      "part_index": 66,
+      "path": "graphs/work/title.episode/part-00066.nq",
+      "rows": 100000,
+      "triples": 243140
+    },
+    {
+      "part_index": 67,
+      "path": "graphs/work/title.episode/part-00067.nq",
+      "rows": 100000,
+      "triples": 245274
+    },
+    {
+      "part_index": 68,
+      "path": "graphs/work/title.episode/part-00068.nq",
+      "rows": 100000,
+      "triples": 253546
+    },
+    {
+      "part_index": 69,
+      "path": "graphs/work/title.episode/part-00069.nq",
+      "rows": 100000,
+      "triples": 256314
+    },
+    {
+      "part_index": 70,
+      "path": "graphs/work/title.episode/part-00070.nq",
+      "rows": 100000,
+      "triples": 264942
+    },
+    {
+      "part_index": 71,
+      "path": "graphs/work/title.episode/part-00071.nq",
+      "rows": 100000,
+      "triples": 269470
+    },
+    {
+      "part_index": 72,
+      "path": "graphs/work/title.episode/part-00072.nq",
+      "rows": 100000,
+      "triples": 244676
+    },
+    {
+      "part_index": 73,
+      "path": "graphs/work/title.episode/part-00073.nq",
+      "rows": 100000,
+      "triples": 247934
+    },
+    {
+      "part_index": 74,
+      "path": "graphs/work/title.episode/part-00074.nq",
+      "rows": 100000,
+      "triples": 252936
+    },
+    {
+      "part_index": 75,
+      "path": "graphs/work/title.episode/part-00075.nq",
+      "rows": 100000,
+      "triples": 243898
+    },
+    {
+      "part_index": 76,
+      "path": "graphs/work/title.episode/part-00076.nq",
+      "rows": 100000,
+      "triples": 255762
+    },
+    {
+      "part_index": 77,
+      "path": "graphs/work/title.episode/part-00077.nq",
+      "rows": 100000,
+      "triples": 263808
+    },
+    {
+      "part_index": 78,
+      "path": "graphs/work/title.episode/part-00078.nq",
+      "rows": 100000,
+      "triples": 258216
+    },
+    {
+      "part_index": 79,
+      "path": "graphs/work/title.episode/part-00079.nq",
+      "rows": 100000,
+      "triples": 247642
+    },
+    {
+      "part_index": 80,
+      "path": "graphs/work/title.episode/part-00080.nq",
+      "rows": 100000,
+      "triples": 265820
+    },
+    {
+      "part_index": 81,
+      "path": "graphs/work/title.episode/part-00081.nq",
+      "rows": 100000,
+      "triples": 258484
+    },
+    {
+      "part_index": 82,
+      "path": "graphs/work/title.episode/part-00082.nq",
+      "rows": 100000,
+      "triples": 250518
+    },
+    {
+      "part_index": 83,
+      "path": "graphs/work/title.episode/part-00083.nq",
+      "rows": 100000,
+      "triples": 255214
+    },
+    {
+      "part_index": 84,
+      "path": "graphs/work/title.episode/part-00084.nq",
+      "rows": 100000,
+      "triples": 269422
+    },
+    {
+      "part_index": 85,
+      "path": "graphs/work/title.episode/part-00085.nq",
+      "rows": 100000,
+      "triples": 267316
+    },
+    {
+      "part_index": 86,
+      "path": "graphs/work/title.episode/part-00086.nq",
+      "rows": 100000,
+      "triples": 269540
+    },
+    {
+      "part_index": 87,
+      "path": "graphs/work/title.episode/part-00087.nq",
+      "rows": 100000,
+      "triples": 267738
+    },
+    {
+      "part_index": 88,
+      "path": "graphs/work/title.episode/part-00088.nq",
+      "rows": 100000,
+      "triples": 261796
+    },
+    {
+      "part_index": 89,
+      "path": "graphs/work/title.episode/part-00089.nq",
+      "rows": 100000,
+      "triples": 273974
+    },
+    {
+      "part_index": 90,
+      "path": "graphs/work/title.episode/part-00090.nq",
+      "rows": 100000,
+      "triples": 269714
+    },
+    {
+      "part_index": 91,
+      "path": "graphs/work/title.episode/part-00091.nq",
+      "rows": 100000,
+      "triples": 277352
+    },
+    {
+      "part_index": 92,
+      "path": "graphs/work/title.episode/part-00092.nq",
+      "rows": 100000,
+      "triples": 267120
+    },
+    {
+      "part_index": 93,
+      "path": "graphs/work/title.episode/part-00093.nq",
+      "rows": 100000,
+      "triples": 272008
+    },
+    {
+      "part_index": 94,
+      "path": "graphs/work/title.episode/part-00094.nq",
+      "rows": 100000,
+      "triples": 271220
+    },
+    {
+      "part_index": 95,
+      "path": "graphs/work/title.episode/part-00095.nq",
+      "rows": 100000,
+      "triples": 259006
+    },
+    {
+      "part_index": 96,
+      "path": "graphs/work/title.episode/part-00096.nq",
+      "rows": 67909,
+      "triples": 178061
+    }
+  ]
+}

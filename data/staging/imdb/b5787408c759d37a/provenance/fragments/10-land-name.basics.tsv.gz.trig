@@ -1,0 +1,32 @@
+@prefix ns1: <http://example.org/ontology/platform/pipeline#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/graph/provenance/imdb/b5787408c759d37a> {
+    <http://example.org/data/imdb/staging/b5787408c759d37a/raw/name.basics.tsv.gz/generation> a prov:Generation ;
+        ns1:transformSpec "land-raw-file@v1" ;
+        prov:activity <http://example.org/activities/prefect/task/019e5a1c-e0c8-72e9-979a-d87314f3ee10> ;
+        prov:entity <http://example.org/data/imdb/staging/b5787408c759d37a/raw/name.basics.tsv.gz> .
+
+    <http://example.org/activities/prefect/task/019e5a1c-e0c8-72e9-979a-d87314f3ee10> a prov:Activity ;
+        prov:endedAtTime "2026-05-24T13:11:44.445196+00:00"^^xsd:dateTime ;
+        prov:generated <http://example.org/data/imdb/staging/b5787408c759d37a/raw/name.basics.tsv.gz> ;
+        prov:startedAtTime "2026-05-24T13:11:44.283415+00:00"^^xsd:dateTime ;
+        prov:used <http://example.org/data/imdb/raw/name.basics.tsv.gz> ;
+        prov:wasAssociatedWith <http://example.org/agents/prefect/flow/24a34956-5421-490f-92c4-80a501ed4d84> .
+
+    <http://example.org/data/imdb/raw/name.basics.tsv.gz> a prov:Entity ;
+        ns1:contentHash "0b29ba107d8c24a17388c3dd8de27596696bf5da887f5e653797f79fee62553c" ;
+        ns1:fileName "name.basics.tsv.gz" .
+
+    <http://example.org/data/imdb/staging/b5787408c759d37a/raw/name.basics.tsv.gz> a ns1:StagedFile,
+            prov:Entity ;
+        rdfs:label "imdb/b5787408c759d37a/raw/name.basics.tsv.gz" ;
+        ns1:contentHash "0b29ba107d8c24a17388c3dd8de27596696bf5da887f5e653797f79fee62553c" ;
+        ns1:fileName "name.basics.tsv.gz" ;
+        prov:qualifiedGeneration <http://example.org/data/imdb/staging/b5787408c759d37a/raw/name.basics.tsv.gz/generation> ;
+        prov:wasDerivedFrom <http://example.org/data/imdb/raw/name.basics.tsv.gz> ;
+        prov:wasGeneratedBy <http://example.org/activities/prefect/task/019e5a1c-e0c8-72e9-979a-d87314f3ee10> .
+}
+

@@ -1,0 +1,3449 @@
+{
+  "transform_id": "title-akas",
+  "tsv_stem": "title.akas",
+  "input_content_hash": "93a258637fe173e7501399df181e011c96e7cce1f41d1c5ac596ac5159b6659f",
+  "transform_spec": "materialize-title-akas@v1",
+  "graph_iri": "http://example.org/graph/asserted/imdb/b5787408c759d37a/title.akas",
+  "total_rows": 57287269,
+  "total_triples": 57287269,
+  "parts": [
+    {
+      "part_index": 0,
+      "path": "graphs/work/title.akas/part-00000.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 1,
+      "path": "graphs/work/title.akas/part-00001.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 2,
+      "path": "graphs/work/title.akas/part-00002.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 3,
+      "path": "graphs/work/title.akas/part-00003.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 4,
+      "path": "graphs/work/title.akas/part-00004.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 5,
+      "path": "graphs/work/title.akas/part-00005.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 6,
+      "path": "graphs/work/title.akas/part-00006.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 7,
+      "path": "graphs/work/title.akas/part-00007.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 8,
+      "path": "graphs/work/title.akas/part-00008.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 9,
+      "path": "graphs/work/title.akas/part-00009.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 10,
+      "path": "graphs/work/title.akas/part-00010.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 11,
+      "path": "graphs/work/title.akas/part-00011.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 12,
+      "path": "graphs/work/title.akas/part-00012.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 13,
+      "path": "graphs/work/title.akas/part-00013.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 14,
+      "path": "graphs/work/title.akas/part-00014.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 15,
+      "path": "graphs/work/title.akas/part-00015.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 16,
+      "path": "graphs/work/title.akas/part-00016.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 17,
+      "path": "graphs/work/title.akas/part-00017.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 18,
+      "path": "graphs/work/title.akas/part-00018.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 19,
+      "path": "graphs/work/title.akas/part-00019.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 20,
+      "path": "graphs/work/title.akas/part-00020.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 21,
+      "path": "graphs/work/title.akas/part-00021.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 22,
+      "path": "graphs/work/title.akas/part-00022.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 23,
+      "path": "graphs/work/title.akas/part-00023.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 24,
+      "path": "graphs/work/title.akas/part-00024.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 25,
+      "path": "graphs/work/title.akas/part-00025.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 26,
+      "path": "graphs/work/title.akas/part-00026.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 27,
+      "path": "graphs/work/title.akas/part-00027.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 28,
+      "path": "graphs/work/title.akas/part-00028.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 29,
+      "path": "graphs/work/title.akas/part-00029.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 30,
+      "path": "graphs/work/title.akas/part-00030.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 31,
+      "path": "graphs/work/title.akas/part-00031.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 32,
+      "path": "graphs/work/title.akas/part-00032.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 33,
+      "path": "graphs/work/title.akas/part-00033.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 34,
+      "path": "graphs/work/title.akas/part-00034.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 35,
+      "path": "graphs/work/title.akas/part-00035.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 36,
+      "path": "graphs/work/title.akas/part-00036.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 37,
+      "path": "graphs/work/title.akas/part-00037.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 38,
+      "path": "graphs/work/title.akas/part-00038.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 39,
+      "path": "graphs/work/title.akas/part-00039.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 40,
+      "path": "graphs/work/title.akas/part-00040.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 41,
+      "path": "graphs/work/title.akas/part-00041.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 42,
+      "path": "graphs/work/title.akas/part-00042.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 43,
+      "path": "graphs/work/title.akas/part-00043.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 44,
+      "path": "graphs/work/title.akas/part-00044.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 45,
+      "path": "graphs/work/title.akas/part-00045.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 46,
+      "path": "graphs/work/title.akas/part-00046.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 47,
+      "path": "graphs/work/title.akas/part-00047.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 48,
+      "path": "graphs/work/title.akas/part-00048.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 49,
+      "path": "graphs/work/title.akas/part-00049.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 50,
+      "path": "graphs/work/title.akas/part-00050.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 51,
+      "path": "graphs/work/title.akas/part-00051.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 52,
+      "path": "graphs/work/title.akas/part-00052.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 53,
+      "path": "graphs/work/title.akas/part-00053.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 54,
+      "path": "graphs/work/title.akas/part-00054.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 55,
+      "path": "graphs/work/title.akas/part-00055.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 56,
+      "path": "graphs/work/title.akas/part-00056.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 57,
+      "path": "graphs/work/title.akas/part-00057.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 58,
+      "path": "graphs/work/title.akas/part-00058.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 59,
+      "path": "graphs/work/title.akas/part-00059.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 60,
+      "path": "graphs/work/title.akas/part-00060.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 61,
+      "path": "graphs/work/title.akas/part-00061.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 62,
+      "path": "graphs/work/title.akas/part-00062.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 63,
+      "path": "graphs/work/title.akas/part-00063.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 64,
+      "path": "graphs/work/title.akas/part-00064.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 65,
+      "path": "graphs/work/title.akas/part-00065.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 66,
+      "path": "graphs/work/title.akas/part-00066.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 67,
+      "path": "graphs/work/title.akas/part-00067.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 68,
+      "path": "graphs/work/title.akas/part-00068.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 69,
+      "path": "graphs/work/title.akas/part-00069.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 70,
+      "path": "graphs/work/title.akas/part-00070.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 71,
+      "path": "graphs/work/title.akas/part-00071.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 72,
+      "path": "graphs/work/title.akas/part-00072.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 73,
+      "path": "graphs/work/title.akas/part-00073.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 74,
+      "path": "graphs/work/title.akas/part-00074.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 75,
+      "path": "graphs/work/title.akas/part-00075.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 76,
+      "path": "graphs/work/title.akas/part-00076.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 77,
+      "path": "graphs/work/title.akas/part-00077.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 78,
+      "path": "graphs/work/title.akas/part-00078.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 79,
+      "path": "graphs/work/title.akas/part-00079.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 80,
+      "path": "graphs/work/title.akas/part-00080.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 81,
+      "path": "graphs/work/title.akas/part-00081.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 82,
+      "path": "graphs/work/title.akas/part-00082.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 83,
+      "path": "graphs/work/title.akas/part-00083.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 84,
+      "path": "graphs/work/title.akas/part-00084.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 85,
+      "path": "graphs/work/title.akas/part-00085.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 86,
+      "path": "graphs/work/title.akas/part-00086.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 87,
+      "path": "graphs/work/title.akas/part-00087.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 88,
+      "path": "graphs/work/title.akas/part-00088.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 89,
+      "path": "graphs/work/title.akas/part-00089.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 90,
+      "path": "graphs/work/title.akas/part-00090.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 91,
+      "path": "graphs/work/title.akas/part-00091.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 92,
+      "path": "graphs/work/title.akas/part-00092.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 93,
+      "path": "graphs/work/title.akas/part-00093.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 94,
+      "path": "graphs/work/title.akas/part-00094.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 95,
+      "path": "graphs/work/title.akas/part-00095.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 96,
+      "path": "graphs/work/title.akas/part-00096.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 97,
+      "path": "graphs/work/title.akas/part-00097.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 98,
+      "path": "graphs/work/title.akas/part-00098.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 99,
+      "path": "graphs/work/title.akas/part-00099.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 100,
+      "path": "graphs/work/title.akas/part-00100.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 101,
+      "path": "graphs/work/title.akas/part-00101.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 102,
+      "path": "graphs/work/title.akas/part-00102.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 103,
+      "path": "graphs/work/title.akas/part-00103.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 104,
+      "path": "graphs/work/title.akas/part-00104.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 105,
+      "path": "graphs/work/title.akas/part-00105.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 106,
+      "path": "graphs/work/title.akas/part-00106.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 107,
+      "path": "graphs/work/title.akas/part-00107.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 108,
+      "path": "graphs/work/title.akas/part-00108.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 109,
+      "path": "graphs/work/title.akas/part-00109.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 110,
+      "path": "graphs/work/title.akas/part-00110.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 111,
+      "path": "graphs/work/title.akas/part-00111.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 112,
+      "path": "graphs/work/title.akas/part-00112.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 113,
+      "path": "graphs/work/title.akas/part-00113.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 114,
+      "path": "graphs/work/title.akas/part-00114.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 115,
+      "path": "graphs/work/title.akas/part-00115.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 116,
+      "path": "graphs/work/title.akas/part-00116.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 117,
+      "path": "graphs/work/title.akas/part-00117.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 118,
+      "path": "graphs/work/title.akas/part-00118.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 119,
+      "path": "graphs/work/title.akas/part-00119.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 120,
+      "path": "graphs/work/title.akas/part-00120.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 121,
+      "path": "graphs/work/title.akas/part-00121.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 122,
+      "path": "graphs/work/title.akas/part-00122.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 123,
+      "path": "graphs/work/title.akas/part-00123.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 124,
+      "path": "graphs/work/title.akas/part-00124.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 125,
+      "path": "graphs/work/title.akas/part-00125.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 126,
+      "path": "graphs/work/title.akas/part-00126.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 127,
+      "path": "graphs/work/title.akas/part-00127.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 128,
+      "path": "graphs/work/title.akas/part-00128.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 129,
+      "path": "graphs/work/title.akas/part-00129.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 130,
+      "path": "graphs/work/title.akas/part-00130.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 131,
+      "path": "graphs/work/title.akas/part-00131.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 132,
+      "path": "graphs/work/title.akas/part-00132.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 133,
+      "path": "graphs/work/title.akas/part-00133.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 134,
+      "path": "graphs/work/title.akas/part-00134.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 135,
+      "path": "graphs/work/title.akas/part-00135.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 136,
+      "path": "graphs/work/title.akas/part-00136.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 137,
+      "path": "graphs/work/title.akas/part-00137.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 138,
+      "path": "graphs/work/title.akas/part-00138.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 139,
+      "path": "graphs/work/title.akas/part-00139.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 140,
+      "path": "graphs/work/title.akas/part-00140.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 141,
+      "path": "graphs/work/title.akas/part-00141.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 142,
+      "path": "graphs/work/title.akas/part-00142.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 143,
+      "path": "graphs/work/title.akas/part-00143.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 144,
+      "path": "graphs/work/title.akas/part-00144.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 145,
+      "path": "graphs/work/title.akas/part-00145.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 146,
+      "path": "graphs/work/title.akas/part-00146.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 147,
+      "path": "graphs/work/title.akas/part-00147.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 148,
+      "path": "graphs/work/title.akas/part-00148.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 149,
+      "path": "graphs/work/title.akas/part-00149.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 150,
+      "path": "graphs/work/title.akas/part-00150.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 151,
+      "path": "graphs/work/title.akas/part-00151.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 152,
+      "path": "graphs/work/title.akas/part-00152.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 153,
+      "path": "graphs/work/title.akas/part-00153.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 154,
+      "path": "graphs/work/title.akas/part-00154.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 155,
+      "path": "graphs/work/title.akas/part-00155.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 156,
+      "path": "graphs/work/title.akas/part-00156.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 157,
+      "path": "graphs/work/title.akas/part-00157.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 158,
+      "path": "graphs/work/title.akas/part-00158.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 159,
+      "path": "graphs/work/title.akas/part-00159.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 160,
+      "path": "graphs/work/title.akas/part-00160.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 161,
+      "path": "graphs/work/title.akas/part-00161.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 162,
+      "path": "graphs/work/title.akas/part-00162.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 163,
+      "path": "graphs/work/title.akas/part-00163.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 164,
+      "path": "graphs/work/title.akas/part-00164.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 165,
+      "path": "graphs/work/title.akas/part-00165.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 166,
+      "path": "graphs/work/title.akas/part-00166.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 167,
+      "path": "graphs/work/title.akas/part-00167.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 168,
+      "path": "graphs/work/title.akas/part-00168.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 169,
+      "path": "graphs/work/title.akas/part-00169.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 170,
+      "path": "graphs/work/title.akas/part-00170.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 171,
+      "path": "graphs/work/title.akas/part-00171.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 172,
+      "path": "graphs/work/title.akas/part-00172.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 173,
+      "path": "graphs/work/title.akas/part-00173.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 174,
+      "path": "graphs/work/title.akas/part-00174.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 175,
+      "path": "graphs/work/title.akas/part-00175.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 176,
+      "path": "graphs/work/title.akas/part-00176.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 177,
+      "path": "graphs/work/title.akas/part-00177.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 178,
+      "path": "graphs/work/title.akas/part-00178.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 179,
+      "path": "graphs/work/title.akas/part-00179.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 180,
+      "path": "graphs/work/title.akas/part-00180.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 181,
+      "path": "graphs/work/title.akas/part-00181.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 182,
+      "path": "graphs/work/title.akas/part-00182.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 183,
+      "path": "graphs/work/title.akas/part-00183.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 184,
+      "path": "graphs/work/title.akas/part-00184.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 185,
+      "path": "graphs/work/title.akas/part-00185.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 186,
+      "path": "graphs/work/title.akas/part-00186.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 187,
+      "path": "graphs/work/title.akas/part-00187.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 188,
+      "path": "graphs/work/title.akas/part-00188.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 189,
+      "path": "graphs/work/title.akas/part-00189.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 190,
+      "path": "graphs/work/title.akas/part-00190.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 191,
+      "path": "graphs/work/title.akas/part-00191.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 192,
+      "path": "graphs/work/title.akas/part-00192.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 193,
+      "path": "graphs/work/title.akas/part-00193.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 194,
+      "path": "graphs/work/title.akas/part-00194.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 195,
+      "path": "graphs/work/title.akas/part-00195.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 196,
+      "path": "graphs/work/title.akas/part-00196.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 197,
+      "path": "graphs/work/title.akas/part-00197.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 198,
+      "path": "graphs/work/title.akas/part-00198.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 199,
+      "path": "graphs/work/title.akas/part-00199.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 200,
+      "path": "graphs/work/title.akas/part-00200.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 201,
+      "path": "graphs/work/title.akas/part-00201.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 202,
+      "path": "graphs/work/title.akas/part-00202.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 203,
+      "path": "graphs/work/title.akas/part-00203.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 204,
+      "path": "graphs/work/title.akas/part-00204.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 205,
+      "path": "graphs/work/title.akas/part-00205.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 206,
+      "path": "graphs/work/title.akas/part-00206.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 207,
+      "path": "graphs/work/title.akas/part-00207.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 208,
+      "path": "graphs/work/title.akas/part-00208.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 209,
+      "path": "graphs/work/title.akas/part-00209.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 210,
+      "path": "graphs/work/title.akas/part-00210.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 211,
+      "path": "graphs/work/title.akas/part-00211.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 212,
+      "path": "graphs/work/title.akas/part-00212.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 213,
+      "path": "graphs/work/title.akas/part-00213.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 214,
+      "path": "graphs/work/title.akas/part-00214.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 215,
+      "path": "graphs/work/title.akas/part-00215.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 216,
+      "path": "graphs/work/title.akas/part-00216.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 217,
+      "path": "graphs/work/title.akas/part-00217.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 218,
+      "path": "graphs/work/title.akas/part-00218.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 219,
+      "path": "graphs/work/title.akas/part-00219.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 220,
+      "path": "graphs/work/title.akas/part-00220.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 221,
+      "path": "graphs/work/title.akas/part-00221.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 222,
+      "path": "graphs/work/title.akas/part-00222.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 223,
+      "path": "graphs/work/title.akas/part-00223.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 224,
+      "path": "graphs/work/title.akas/part-00224.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 225,
+      "path": "graphs/work/title.akas/part-00225.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 226,
+      "path": "graphs/work/title.akas/part-00226.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 227,
+      "path": "graphs/work/title.akas/part-00227.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 228,
+      "path": "graphs/work/title.akas/part-00228.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 229,
+      "path": "graphs/work/title.akas/part-00229.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 230,
+      "path": "graphs/work/title.akas/part-00230.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 231,
+      "path": "graphs/work/title.akas/part-00231.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 232,
+      "path": "graphs/work/title.akas/part-00232.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 233,
+      "path": "graphs/work/title.akas/part-00233.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 234,
+      "path": "graphs/work/title.akas/part-00234.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 235,
+      "path": "graphs/work/title.akas/part-00235.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 236,
+      "path": "graphs/work/title.akas/part-00236.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 237,
+      "path": "graphs/work/title.akas/part-00237.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 238,
+      "path": "graphs/work/title.akas/part-00238.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 239,
+      "path": "graphs/work/title.akas/part-00239.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 240,
+      "path": "graphs/work/title.akas/part-00240.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 241,
+      "path": "graphs/work/title.akas/part-00241.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 242,
+      "path": "graphs/work/title.akas/part-00242.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 243,
+      "path": "graphs/work/title.akas/part-00243.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 244,
+      "path": "graphs/work/title.akas/part-00244.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 245,
+      "path": "graphs/work/title.akas/part-00245.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 246,
+      "path": "graphs/work/title.akas/part-00246.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 247,
+      "path": "graphs/work/title.akas/part-00247.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 248,
+      "path": "graphs/work/title.akas/part-00248.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 249,
+      "path": "graphs/work/title.akas/part-00249.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 250,
+      "path": "graphs/work/title.akas/part-00250.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 251,
+      "path": "graphs/work/title.akas/part-00251.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 252,
+      "path": "graphs/work/title.akas/part-00252.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 253,
+      "path": "graphs/work/title.akas/part-00253.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 254,
+      "path": "graphs/work/title.akas/part-00254.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 255,
+      "path": "graphs/work/title.akas/part-00255.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 256,
+      "path": "graphs/work/title.akas/part-00256.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 257,
+      "path": "graphs/work/title.akas/part-00257.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 258,
+      "path": "graphs/work/title.akas/part-00258.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 259,
+      "path": "graphs/work/title.akas/part-00259.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 260,
+      "path": "graphs/work/title.akas/part-00260.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 261,
+      "path": "graphs/work/title.akas/part-00261.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 262,
+      "path": "graphs/work/title.akas/part-00262.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 263,
+      "path": "graphs/work/title.akas/part-00263.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 264,
+      "path": "graphs/work/title.akas/part-00264.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 265,
+      "path": "graphs/work/title.akas/part-00265.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 266,
+      "path": "graphs/work/title.akas/part-00266.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 267,
+      "path": "graphs/work/title.akas/part-00267.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 268,
+      "path": "graphs/work/title.akas/part-00268.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 269,
+      "path": "graphs/work/title.akas/part-00269.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 270,
+      "path": "graphs/work/title.akas/part-00270.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 271,
+      "path": "graphs/work/title.akas/part-00271.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 272,
+      "path": "graphs/work/title.akas/part-00272.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 273,
+      "path": "graphs/work/title.akas/part-00273.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 274,
+      "path": "graphs/work/title.akas/part-00274.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 275,
+      "path": "graphs/work/title.akas/part-00275.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 276,
+      "path": "graphs/work/title.akas/part-00276.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 277,
+      "path": "graphs/work/title.akas/part-00277.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 278,
+      "path": "graphs/work/title.akas/part-00278.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 279,
+      "path": "graphs/work/title.akas/part-00279.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 280,
+      "path": "graphs/work/title.akas/part-00280.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 281,
+      "path": "graphs/work/title.akas/part-00281.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 282,
+      "path": "graphs/work/title.akas/part-00282.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 283,
+      "path": "graphs/work/title.akas/part-00283.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 284,
+      "path": "graphs/work/title.akas/part-00284.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 285,
+      "path": "graphs/work/title.akas/part-00285.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 286,
+      "path": "graphs/work/title.akas/part-00286.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 287,
+      "path": "graphs/work/title.akas/part-00287.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 288,
+      "path": "graphs/work/title.akas/part-00288.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 289,
+      "path": "graphs/work/title.akas/part-00289.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 290,
+      "path": "graphs/work/title.akas/part-00290.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 291,
+      "path": "graphs/work/title.akas/part-00291.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 292,
+      "path": "graphs/work/title.akas/part-00292.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 293,
+      "path": "graphs/work/title.akas/part-00293.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 294,
+      "path": "graphs/work/title.akas/part-00294.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 295,
+      "path": "graphs/work/title.akas/part-00295.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 296,
+      "path": "graphs/work/title.akas/part-00296.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 297,
+      "path": "graphs/work/title.akas/part-00297.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 298,
+      "path": "graphs/work/title.akas/part-00298.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 299,
+      "path": "graphs/work/title.akas/part-00299.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 300,
+      "path": "graphs/work/title.akas/part-00300.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 301,
+      "path": "graphs/work/title.akas/part-00301.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 302,
+      "path": "graphs/work/title.akas/part-00302.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 303,
+      "path": "graphs/work/title.akas/part-00303.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 304,
+      "path": "graphs/work/title.akas/part-00304.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 305,
+      "path": "graphs/work/title.akas/part-00305.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 306,
+      "path": "graphs/work/title.akas/part-00306.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 307,
+      "path": "graphs/work/title.akas/part-00307.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 308,
+      "path": "graphs/work/title.akas/part-00308.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 309,
+      "path": "graphs/work/title.akas/part-00309.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 310,
+      "path": "graphs/work/title.akas/part-00310.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 311,
+      "path": "graphs/work/title.akas/part-00311.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 312,
+      "path": "graphs/work/title.akas/part-00312.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 313,
+      "path": "graphs/work/title.akas/part-00313.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 314,
+      "path": "graphs/work/title.akas/part-00314.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 315,
+      "path": "graphs/work/title.akas/part-00315.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 316,
+      "path": "graphs/work/title.akas/part-00316.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 317,
+      "path": "graphs/work/title.akas/part-00317.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 318,
+      "path": "graphs/work/title.akas/part-00318.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 319,
+      "path": "graphs/work/title.akas/part-00319.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 320,
+      "path": "graphs/work/title.akas/part-00320.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 321,
+      "path": "graphs/work/title.akas/part-00321.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 322,
+      "path": "graphs/work/title.akas/part-00322.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 323,
+      "path": "graphs/work/title.akas/part-00323.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 324,
+      "path": "graphs/work/title.akas/part-00324.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 325,
+      "path": "graphs/work/title.akas/part-00325.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 326,
+      "path": "graphs/work/title.akas/part-00326.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 327,
+      "path": "graphs/work/title.akas/part-00327.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 328,
+      "path": "graphs/work/title.akas/part-00328.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 329,
+      "path": "graphs/work/title.akas/part-00329.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 330,
+      "path": "graphs/work/title.akas/part-00330.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 331,
+      "path": "graphs/work/title.akas/part-00331.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 332,
+      "path": "graphs/work/title.akas/part-00332.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 333,
+      "path": "graphs/work/title.akas/part-00333.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 334,
+      "path": "graphs/work/title.akas/part-00334.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 335,
+      "path": "graphs/work/title.akas/part-00335.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 336,
+      "path": "graphs/work/title.akas/part-00336.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 337,
+      "path": "graphs/work/title.akas/part-00337.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 338,
+      "path": "graphs/work/title.akas/part-00338.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 339,
+      "path": "graphs/work/title.akas/part-00339.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 340,
+      "path": "graphs/work/title.akas/part-00340.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 341,
+      "path": "graphs/work/title.akas/part-00341.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 342,
+      "path": "graphs/work/title.akas/part-00342.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 343,
+      "path": "graphs/work/title.akas/part-00343.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 344,
+      "path": "graphs/work/title.akas/part-00344.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 345,
+      "path": "graphs/work/title.akas/part-00345.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 346,
+      "path": "graphs/work/title.akas/part-00346.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 347,
+      "path": "graphs/work/title.akas/part-00347.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 348,
+      "path": "graphs/work/title.akas/part-00348.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 349,
+      "path": "graphs/work/title.akas/part-00349.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 350,
+      "path": "graphs/work/title.akas/part-00350.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 351,
+      "path": "graphs/work/title.akas/part-00351.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 352,
+      "path": "graphs/work/title.akas/part-00352.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 353,
+      "path": "graphs/work/title.akas/part-00353.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 354,
+      "path": "graphs/work/title.akas/part-00354.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 355,
+      "path": "graphs/work/title.akas/part-00355.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 356,
+      "path": "graphs/work/title.akas/part-00356.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 357,
+      "path": "graphs/work/title.akas/part-00357.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 358,
+      "path": "graphs/work/title.akas/part-00358.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 359,
+      "path": "graphs/work/title.akas/part-00359.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 360,
+      "path": "graphs/work/title.akas/part-00360.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 361,
+      "path": "graphs/work/title.akas/part-00361.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 362,
+      "path": "graphs/work/title.akas/part-00362.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 363,
+      "path": "graphs/work/title.akas/part-00363.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 364,
+      "path": "graphs/work/title.akas/part-00364.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 365,
+      "path": "graphs/work/title.akas/part-00365.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 366,
+      "path": "graphs/work/title.akas/part-00366.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 367,
+      "path": "graphs/work/title.akas/part-00367.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 368,
+      "path": "graphs/work/title.akas/part-00368.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 369,
+      "path": "graphs/work/title.akas/part-00369.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 370,
+      "path": "graphs/work/title.akas/part-00370.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 371,
+      "path": "graphs/work/title.akas/part-00371.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 372,
+      "path": "graphs/work/title.akas/part-00372.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 373,
+      "path": "graphs/work/title.akas/part-00373.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 374,
+      "path": "graphs/work/title.akas/part-00374.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 375,
+      "path": "graphs/work/title.akas/part-00375.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 376,
+      "path": "graphs/work/title.akas/part-00376.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 377,
+      "path": "graphs/work/title.akas/part-00377.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 378,
+      "path": "graphs/work/title.akas/part-00378.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 379,
+      "path": "graphs/work/title.akas/part-00379.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 380,
+      "path": "graphs/work/title.akas/part-00380.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 381,
+      "path": "graphs/work/title.akas/part-00381.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 382,
+      "path": "graphs/work/title.akas/part-00382.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 383,
+      "path": "graphs/work/title.akas/part-00383.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 384,
+      "path": "graphs/work/title.akas/part-00384.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 385,
+      "path": "graphs/work/title.akas/part-00385.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 386,
+      "path": "graphs/work/title.akas/part-00386.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 387,
+      "path": "graphs/work/title.akas/part-00387.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 388,
+      "path": "graphs/work/title.akas/part-00388.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 389,
+      "path": "graphs/work/title.akas/part-00389.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 390,
+      "path": "graphs/work/title.akas/part-00390.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 391,
+      "path": "graphs/work/title.akas/part-00391.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 392,
+      "path": "graphs/work/title.akas/part-00392.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 393,
+      "path": "graphs/work/title.akas/part-00393.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 394,
+      "path": "graphs/work/title.akas/part-00394.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 395,
+      "path": "graphs/work/title.akas/part-00395.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 396,
+      "path": "graphs/work/title.akas/part-00396.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 397,
+      "path": "graphs/work/title.akas/part-00397.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 398,
+      "path": "graphs/work/title.akas/part-00398.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 399,
+      "path": "graphs/work/title.akas/part-00399.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 400,
+      "path": "graphs/work/title.akas/part-00400.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 401,
+      "path": "graphs/work/title.akas/part-00401.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 402,
+      "path": "graphs/work/title.akas/part-00402.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 403,
+      "path": "graphs/work/title.akas/part-00403.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 404,
+      "path": "graphs/work/title.akas/part-00404.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 405,
+      "path": "graphs/work/title.akas/part-00405.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 406,
+      "path": "graphs/work/title.akas/part-00406.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 407,
+      "path": "graphs/work/title.akas/part-00407.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 408,
+      "path": "graphs/work/title.akas/part-00408.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 409,
+      "path": "graphs/work/title.akas/part-00409.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 410,
+      "path": "graphs/work/title.akas/part-00410.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 411,
+      "path": "graphs/work/title.akas/part-00411.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 412,
+      "path": "graphs/work/title.akas/part-00412.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 413,
+      "path": "graphs/work/title.akas/part-00413.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 414,
+      "path": "graphs/work/title.akas/part-00414.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 415,
+      "path": "graphs/work/title.akas/part-00415.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 416,
+      "path": "graphs/work/title.akas/part-00416.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 417,
+      "path": "graphs/work/title.akas/part-00417.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 418,
+      "path": "graphs/work/title.akas/part-00418.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 419,
+      "path": "graphs/work/title.akas/part-00419.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 420,
+      "path": "graphs/work/title.akas/part-00420.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 421,
+      "path": "graphs/work/title.akas/part-00421.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 422,
+      "path": "graphs/work/title.akas/part-00422.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 423,
+      "path": "graphs/work/title.akas/part-00423.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 424,
+      "path": "graphs/work/title.akas/part-00424.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 425,
+      "path": "graphs/work/title.akas/part-00425.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 426,
+      "path": "graphs/work/title.akas/part-00426.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 427,
+      "path": "graphs/work/title.akas/part-00427.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 428,
+      "path": "graphs/work/title.akas/part-00428.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 429,
+      "path": "graphs/work/title.akas/part-00429.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 430,
+      "path": "graphs/work/title.akas/part-00430.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 431,
+      "path": "graphs/work/title.akas/part-00431.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 432,
+      "path": "graphs/work/title.akas/part-00432.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 433,
+      "path": "graphs/work/title.akas/part-00433.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 434,
+      "path": "graphs/work/title.akas/part-00434.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 435,
+      "path": "graphs/work/title.akas/part-00435.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 436,
+      "path": "graphs/work/title.akas/part-00436.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 437,
+      "path": "graphs/work/title.akas/part-00437.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 438,
+      "path": "graphs/work/title.akas/part-00438.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 439,
+      "path": "graphs/work/title.akas/part-00439.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 440,
+      "path": "graphs/work/title.akas/part-00440.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 441,
+      "path": "graphs/work/title.akas/part-00441.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 442,
+      "path": "graphs/work/title.akas/part-00442.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 443,
+      "path": "graphs/work/title.akas/part-00443.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 444,
+      "path": "graphs/work/title.akas/part-00444.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 445,
+      "path": "graphs/work/title.akas/part-00445.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 446,
+      "path": "graphs/work/title.akas/part-00446.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 447,
+      "path": "graphs/work/title.akas/part-00447.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 448,
+      "path": "graphs/work/title.akas/part-00448.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 449,
+      "path": "graphs/work/title.akas/part-00449.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 450,
+      "path": "graphs/work/title.akas/part-00450.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 451,
+      "path": "graphs/work/title.akas/part-00451.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 452,
+      "path": "graphs/work/title.akas/part-00452.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 453,
+      "path": "graphs/work/title.akas/part-00453.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 454,
+      "path": "graphs/work/title.akas/part-00454.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 455,
+      "path": "graphs/work/title.akas/part-00455.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 456,
+      "path": "graphs/work/title.akas/part-00456.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 457,
+      "path": "graphs/work/title.akas/part-00457.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 458,
+      "path": "graphs/work/title.akas/part-00458.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 459,
+      "path": "graphs/work/title.akas/part-00459.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 460,
+      "path": "graphs/work/title.akas/part-00460.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 461,
+      "path": "graphs/work/title.akas/part-00461.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 462,
+      "path": "graphs/work/title.akas/part-00462.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 463,
+      "path": "graphs/work/title.akas/part-00463.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 464,
+      "path": "graphs/work/title.akas/part-00464.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 465,
+      "path": "graphs/work/title.akas/part-00465.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 466,
+      "path": "graphs/work/title.akas/part-00466.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 467,
+      "path": "graphs/work/title.akas/part-00467.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 468,
+      "path": "graphs/work/title.akas/part-00468.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 469,
+      "path": "graphs/work/title.akas/part-00469.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 470,
+      "path": "graphs/work/title.akas/part-00470.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 471,
+      "path": "graphs/work/title.akas/part-00471.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 472,
+      "path": "graphs/work/title.akas/part-00472.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 473,
+      "path": "graphs/work/title.akas/part-00473.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 474,
+      "path": "graphs/work/title.akas/part-00474.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 475,
+      "path": "graphs/work/title.akas/part-00475.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 476,
+      "path": "graphs/work/title.akas/part-00476.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 477,
+      "path": "graphs/work/title.akas/part-00477.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 478,
+      "path": "graphs/work/title.akas/part-00478.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 479,
+      "path": "graphs/work/title.akas/part-00479.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 480,
+      "path": "graphs/work/title.akas/part-00480.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 481,
+      "path": "graphs/work/title.akas/part-00481.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 482,
+      "path": "graphs/work/title.akas/part-00482.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 483,
+      "path": "graphs/work/title.akas/part-00483.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 484,
+      "path": "graphs/work/title.akas/part-00484.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 485,
+      "path": "graphs/work/title.akas/part-00485.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 486,
+      "path": "graphs/work/title.akas/part-00486.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 487,
+      "path": "graphs/work/title.akas/part-00487.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 488,
+      "path": "graphs/work/title.akas/part-00488.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 489,
+      "path": "graphs/work/title.akas/part-00489.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 490,
+      "path": "graphs/work/title.akas/part-00490.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 491,
+      "path": "graphs/work/title.akas/part-00491.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 492,
+      "path": "graphs/work/title.akas/part-00492.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 493,
+      "path": "graphs/work/title.akas/part-00493.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 494,
+      "path": "graphs/work/title.akas/part-00494.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 495,
+      "path": "graphs/work/title.akas/part-00495.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 496,
+      "path": "graphs/work/title.akas/part-00496.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 497,
+      "path": "graphs/work/title.akas/part-00497.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 498,
+      "path": "graphs/work/title.akas/part-00498.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 499,
+      "path": "graphs/work/title.akas/part-00499.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 500,
+      "path": "graphs/work/title.akas/part-00500.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 501,
+      "path": "graphs/work/title.akas/part-00501.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 502,
+      "path": "graphs/work/title.akas/part-00502.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 503,
+      "path": "graphs/work/title.akas/part-00503.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 504,
+      "path": "graphs/work/title.akas/part-00504.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 505,
+      "path": "graphs/work/title.akas/part-00505.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 506,
+      "path": "graphs/work/title.akas/part-00506.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 507,
+      "path": "graphs/work/title.akas/part-00507.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 508,
+      "path": "graphs/work/title.akas/part-00508.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 509,
+      "path": "graphs/work/title.akas/part-00509.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 510,
+      "path": "graphs/work/title.akas/part-00510.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 511,
+      "path": "graphs/work/title.akas/part-00511.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 512,
+      "path": "graphs/work/title.akas/part-00512.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 513,
+      "path": "graphs/work/title.akas/part-00513.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 514,
+      "path": "graphs/work/title.akas/part-00514.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 515,
+      "path": "graphs/work/title.akas/part-00515.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 516,
+      "path": "graphs/work/title.akas/part-00516.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 517,
+      "path": "graphs/work/title.akas/part-00517.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 518,
+      "path": "graphs/work/title.akas/part-00518.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 519,
+      "path": "graphs/work/title.akas/part-00519.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 520,
+      "path": "graphs/work/title.akas/part-00520.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 521,
+      "path": "graphs/work/title.akas/part-00521.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 522,
+      "path": "graphs/work/title.akas/part-00522.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 523,
+      "path": "graphs/work/title.akas/part-00523.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 524,
+      "path": "graphs/work/title.akas/part-00524.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 525,
+      "path": "graphs/work/title.akas/part-00525.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 526,
+      "path": "graphs/work/title.akas/part-00526.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 527,
+      "path": "graphs/work/title.akas/part-00527.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 528,
+      "path": "graphs/work/title.akas/part-00528.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 529,
+      "path": "graphs/work/title.akas/part-00529.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 530,
+      "path": "graphs/work/title.akas/part-00530.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 531,
+      "path": "graphs/work/title.akas/part-00531.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 532,
+      "path": "graphs/work/title.akas/part-00532.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 533,
+      "path": "graphs/work/title.akas/part-00533.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 534,
+      "path": "graphs/work/title.akas/part-00534.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 535,
+      "path": "graphs/work/title.akas/part-00535.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 536,
+      "path": "graphs/work/title.akas/part-00536.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 537,
+      "path": "graphs/work/title.akas/part-00537.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 538,
+      "path": "graphs/work/title.akas/part-00538.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 539,
+      "path": "graphs/work/title.akas/part-00539.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 540,
+      "path": "graphs/work/title.akas/part-00540.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 541,
+      "path": "graphs/work/title.akas/part-00541.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 542,
+      "path": "graphs/work/title.akas/part-00542.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 543,
+      "path": "graphs/work/title.akas/part-00543.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 544,
+      "path": "graphs/work/title.akas/part-00544.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 545,
+      "path": "graphs/work/title.akas/part-00545.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 546,
+      "path": "graphs/work/title.akas/part-00546.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 547,
+      "path": "graphs/work/title.akas/part-00547.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 548,
+      "path": "graphs/work/title.akas/part-00548.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 549,
+      "path": "graphs/work/title.akas/part-00549.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 550,
+      "path": "graphs/work/title.akas/part-00550.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 551,
+      "path": "graphs/work/title.akas/part-00551.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 552,
+      "path": "graphs/work/title.akas/part-00552.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 553,
+      "path": "graphs/work/title.akas/part-00553.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 554,
+      "path": "graphs/work/title.akas/part-00554.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 555,
+      "path": "graphs/work/title.akas/part-00555.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 556,
+      "path": "graphs/work/title.akas/part-00556.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 557,
+      "path": "graphs/work/title.akas/part-00557.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 558,
+      "path": "graphs/work/title.akas/part-00558.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 559,
+      "path": "graphs/work/title.akas/part-00559.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 560,
+      "path": "graphs/work/title.akas/part-00560.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 561,
+      "path": "graphs/work/title.akas/part-00561.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 562,
+      "path": "graphs/work/title.akas/part-00562.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 563,
+      "path": "graphs/work/title.akas/part-00563.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 564,
+      "path": "graphs/work/title.akas/part-00564.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 565,
+      "path": "graphs/work/title.akas/part-00565.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 566,
+      "path": "graphs/work/title.akas/part-00566.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 567,
+      "path": "graphs/work/title.akas/part-00567.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 568,
+      "path": "graphs/work/title.akas/part-00568.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 569,
+      "path": "graphs/work/title.akas/part-00569.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 570,
+      "path": "graphs/work/title.akas/part-00570.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 571,
+      "path": "graphs/work/title.akas/part-00571.nq",
+      "rows": 100000,
+      "triples": 100000
+    },
+    {
+      "part_index": 572,
+      "path": "graphs/work/title.akas/part-00572.nq",
+      "rows": 87269,
+      "triples": 87269
+    }
+  ]
+}

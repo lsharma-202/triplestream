@@ -1,0 +1,178 @@
+{
+  "transform_id": "title-ratings",
+  "graph_iri": "http://example.org/graph/asserted/imdb/b5787408c759d37a/title.ratings",
+  "status": "passed-no-shapes",
+  "engine": "pyshacl",
+  "validated_at": "2026-05-24T15:16:50.948634+00:00",
+  "shape_files": [],
+  "ontology_files": [
+    "core.ttl",
+    "core-properties.ttl",
+    "imdb.ttl",
+    "imdb-properties.ttl",
+    "genres-skos.ttl",
+    "roles-skos.ttl"
+  ],
+  "parts_total": 17,
+  "parts_conformant": 17,
+  "parts_quarantined": 0,
+  "violations": 0,
+  "warnings": 0,
+  "parts": [
+    {
+      "part": "part-00000.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00001.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00002.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00003.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00004.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00005.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00006.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00007.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00008.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00009.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00010.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00011.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00012.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00013.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00014.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00015.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    },
+    {
+      "part": "part-00016.nq",
+      "conforms": true,
+      "violations": 0,
+      "warnings": 0,
+      "shacl_report": null,
+      "destination": "title.ratings",
+      "shape_files": []
+    }
+  ],
+  "asserted_dir": "graphs/asserted/title.ratings",
+  "quarantine_dir": "graphs/quarantine/title.ratings"
+}

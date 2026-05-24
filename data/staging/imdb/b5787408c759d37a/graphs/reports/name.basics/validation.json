@@ -1,0 +1,10 @@
+{
+  "transform_id": "name-basics",
+  "graph_iri": "http://example.org/graph/asserted/imdb/b5787408c759d37a/name.basics",
+  "status": "passed-pending-shacl",
+  "engine": "pyshacl",
+  "validated_at": "2026-05-24T14:24:14.908818+00:00",
+  "message": "Placeholder gate \u2014 all parts promoted to asserted/. pyshacl routing not yet wired.",
+  "quarantine_dir": "graphs/quarantine/name.basics",
+  "total_triples": 73614777
+}

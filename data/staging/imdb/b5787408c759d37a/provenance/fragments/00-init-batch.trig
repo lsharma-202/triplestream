@@ -1,0 +1,27 @@
+@prefix ns1: <http://example.org/ontology/platform/pipeline#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/graph/provenance/imdb/b5787408c759d37a> {
+    <http://example.org/activities/prefect/task/019e5a1c-e0b9-7d57-9a9a-addb330cc622> a prov:Activity ;
+        prov:generated <http://example.org/data/imdb/staging/b5787408c759d37a> ;
+        prov:startedAtTime "2026-05-24T13:11:42.533265+00:00"^^xsd:dateTime ;
+        prov:wasAssociatedWith <http://example.org/agents/prefect/flow/24a34956-5421-490f-92c4-80a501ed4d84> .
+
+    <http://example.org/agents/prefect/flow/24a34956-5421-490f-92c4-80a501ed4d84> a prov:SoftwareAgent ;
+        rdfs:label "prefect-flow:imdb" .
+
+    <http://example.org/data/imdb/staging/b5787408c759d37a> a ns1:IngestBatch,
+            prov:Entity ;
+        ns1:batchId "b5787408c759d37a" ;
+        ns1:sourceFingerprint "b5787408c759d37a" ;
+        prov:wasDerivedFrom <http://example.org/data/source/imdb> ;
+        prov:wasGeneratedBy <http://example.org/activities/prefect/task/019e5a1c-e0b9-7d57-9a9a-addb330cc622> .
+
+    <http://example.org/data/source/imdb> a ns1:DataSource,
+            prov:Entity ;
+        rdfs:label "IMDB Non-Commercial Datasets" ;
+        ns1:sourceId "imdb" .
+}
+

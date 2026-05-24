@@ -1,0 +1,103 @@
+{
+  "source_id": "imdb",
+  "batch_id": "b5787408c759d37a",
+  "source_fingerprint": "b5787408c759d37a",
+  "ingested_at": "2026-05-24T15:18:39.615997+00:00",
+  "file_count": 6,
+  "total_rows": 69548018,
+  "files": [
+    {
+      "file": "name.basics.tsv.gz",
+      "staged_path": "/Users/lokesharma/Projects/triplestream/data/staging/imdb/b5787408c759d37a/raw/name.basics.tsv.gz",
+      "content_hash": "0b29ba107d8c24a17388c3dd8de27596696bf5da887f5e653797f79fee62553c",
+      "row_count": 3928378,
+      "column_count": 6,
+      "columns": [
+        "nconst",
+        "primaryName",
+        "birthYear",
+        "deathYear",
+        "primaryProfession",
+        "knownForTitles"
+      ],
+      "size_bytes": 303797054
+    },
+    {
+      "file": "title.akas.tsv.gz",
+      "staged_path": "/Users/lokesharma/Projects/triplestream/data/staging/imdb/b5787408c759d37a/raw/title.akas.tsv.gz",
+      "content_hash": "93a258637fe173e7501399df181e011c96e7cce1f41d1c5ac596ac5159b6659f",
+      "row_count": 29501434,
+      "column_count": 8,
+      "columns": [
+        "titleId",
+        "ordering",
+        "title",
+        "region",
+        "language",
+        "types",
+        "attributes",
+        "isOriginalTitle"
+      ],
+      "size_bytes": 496868579
+    },
+    {
+      "file": "title.basics.tsv.gz",
+      "staged_path": "/Users/lokesharma/Projects/triplestream/data/staging/imdb/b5787408c759d37a/raw/title.basics.tsv.gz",
+      "content_hash": "00cd05f417da1b7ecafb5918ba120bd558c5f38f319501263dcc603c2cb50c3e",
+      "row_count": 12261032,
+      "column_count": 9,
+      "columns": [
+        "tconst",
+        "titleType",
+        "primaryTitle",
+        "originalTitle",
+        "isAdult",
+        "startYear",
+        "endYear",
+        "runtimeMinutes",
+        "genres"
+      ],
+      "size_bytes": 221954261
+    },
+    {
+      "file": "title.crew.tsv.gz",
+      "staged_path": "/Users/lokesharma/Projects/triplestream/data/staging/imdb/b5787408c759d37a/raw/title.crew.tsv.gz",
+      "content_hash": "8fb4a879941334c1e9cfa95587fbc4a37cd542d6001a204e39bf777ad77b5247",
+      "row_count": 12516899,
+      "column_count": 3,
+      "columns": [
+        "tconst",
+        "directors",
+        "writers"
+      ],
+      "size_bytes": 81574558
+    },
+    {
+      "file": "title.episode.tsv.gz",
+      "staged_path": "/Users/lokesharma/Projects/triplestream/data/staging/imdb/b5787408c759d37a/raw/title.episode.tsv.gz",
+      "content_hash": "6cad49ad9f7c79a5db42498af81d941eba7d3a6fabadb594811bc85cc35862d6",
+      "row_count": 9667909,
+      "column_count": 4,
+      "columns": [
+        "tconst",
+        "parentTconst",
+        "seasonNumber",
+        "episodeNumber"
+      ],
+      "size_bytes": 53466558
+    },
+    {
+      "file": "title.ratings.tsv.gz",
+      "staged_path": "/Users/lokesharma/Projects/triplestream/data/staging/imdb/b5787408c759d37a/raw/title.ratings.tsv.gz",
+      "content_hash": "775e9a445fb9b3b2f78749e106457a12cf0bcb51a9057ca5395fdf1a1386b3df",
+      "row_count": 1672366,
+      "column_count": 3,
+      "columns": [
+        "tconst",
+        "averageRating",
+        "numVotes"
+      ],
+      "size_bytes": 8449806
+    }
+  ]
+}

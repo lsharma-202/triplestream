@@ -1,0 +1,31 @@
+@base <http://example.org/> .
+@prefix activities: <activities/> .
+@prefix agents: <agents/> .
+@prefix data: <data/> .
+@prefix graph: <graph/> .
+@prefix pipeline: <ontology/platform/pipeline#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<graph/provenance/imdb/b5787408c759d37a> {
+    <graph/work/imdb/b5787408c759d37a/title.ratings/generation> a prov:Generation ;
+        pipeline:recordCount 1672366 ;
+        pipeline:transformSpec "materialize-title-ratings@v1" ;
+        prov:activity <activities/prefect/task/019e5a91-2642-7ca4-9474-49e2758ed154> ;
+        prov:entity <graph/work/imdb/b5787408c759d37a/title.ratings> .
+    <activities/prefect/task/019e5a91-2642-7ca4-9474-49e2758ed154> a prov:Activity ;
+        prov:endedAtTime "2026-05-24T15:18:53.942516+00:00"^^xsd:dateTime ;
+        prov:generated <graph/work/imdb/b5787408c759d37a/title.ratings> ;
+        prov:startedAtTime "2026-05-24T15:18:53.942513+00:00"^^xsd:dateTime ;
+        prov:used <data/imdb/raw/title.ratings.tsv.gz> ;
+        prov:wasAssociatedWith <agents/prefect/flow/91af5737-f8e9-4662-9736-345bde42934f> .
+    <data/imdb/raw/title.ratings.tsv.gz> a prov:Entity .
+    <graph/work/imdb/b5787408c759d37a/title.ratings> a pipeline:NamedGraph,
+            prov:Entity ;
+        rdfs:label "work:title-ratings" ;
+        pipeline:fileName "title.ratings.tsv.gz" ;
+        prov:qualifiedGeneration <graph/work/imdb/b5787408c759d37a/title.ratings/generation> ;
+        prov:wasDerivedFrom <data/imdb/raw/title.ratings.tsv.gz> ;
+        prov:wasGeneratedBy <activities/prefect/task/019e5a91-2642-7ca4-9474-49e2758ed154> .
+}

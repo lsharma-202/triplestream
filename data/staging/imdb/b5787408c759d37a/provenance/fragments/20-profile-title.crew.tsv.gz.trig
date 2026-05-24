@@ -1,0 +1,32 @@
+@prefix ns1: <http://example.org/ontology/platform/pipeline#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/graph/provenance/imdb/b5787408c759d37a> {
+    <http://example.org/data/imdb/staging/b5787408c759d37a/profiles/title.crew/generation> a prov:Generation ;
+        ns1:recordCount 12516899 ;
+        ns1:transformSpec "profile-tsv-file@v1" ;
+        prov:activity <http://example.org/activities/prefect/task/019e5a1c-e0cc-7761-a461-a596014d9192> ;
+        prov:entity <http://example.org/data/imdb/staging/b5787408c759d37a/profiles/title.crew> .
+
+    <http://example.org/activities/prefect/task/019e5a1c-e0cc-7761-a461-a596014d9192> a prov:Activity ;
+        prov:endedAtTime "2026-05-24T13:11:46.456735+00:00"^^xsd:dateTime ;
+        prov:generated <http://example.org/data/imdb/staging/b5787408c759d37a/profiles/title.crew> ;
+        prov:startedAtTime "2026-05-24T13:11:45.988177+00:00"^^xsd:dateTime ;
+        prov:used <http://example.org/data/imdb/staging/b5787408c759d37a/raw/title.crew.tsv.gz> ;
+        prov:wasAssociatedWith <http://example.org/agents/prefect/flow/24a34956-5421-490f-92c4-80a501ed4d84> .
+
+    <http://example.org/data/imdb/staging/b5787408c759d37a/profiles/title.crew> a ns1:ProfileReport,
+            prov:Entity ;
+        rdfs:label "profile:title.crew.tsv.gz" ;
+        ns1:fileName "title.crew.tsv.gz" ;
+        prov:qualifiedGeneration <http://example.org/data/imdb/staging/b5787408c759d37a/profiles/title.crew/generation> ;
+        prov:wasDerivedFrom <http://example.org/data/imdb/staging/b5787408c759d37a/raw/title.crew.tsv.gz> ;
+        prov:wasGeneratedBy <http://example.org/activities/prefect/task/019e5a1c-e0cc-7761-a461-a596014d9192> .
+
+    <http://example.org/data/imdb/staging/b5787408c759d37a/raw/title.crew.tsv.gz> a prov:Entity ;
+        ns1:contentHash "8fb4a879941334c1e9cfa95587fbc4a37cd542d6001a204e39bf777ad77b5247" ;
+        ns1:fileName "title.crew.tsv.gz" .
+}
+

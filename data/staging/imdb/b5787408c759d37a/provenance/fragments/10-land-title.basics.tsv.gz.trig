@@ -1,0 +1,32 @@
+@prefix ns1: <http://example.org/ontology/platform/pipeline#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/graph/provenance/imdb/b5787408c759d37a> {
+    <http://example.org/data/imdb/staging/b5787408c759d37a/raw/title.basics.tsv.gz/generation> a prov:Generation ;
+        ns1:transformSpec "land-raw-file@v1" ;
+        prov:activity <http://example.org/activities/prefect/task/019e5a1c-e0c9-75a0-be57-3aeb33f916a1> ;
+        prov:entity <http://example.org/data/imdb/staging/b5787408c759d37a/raw/title.basics.tsv.gz> .
+
+    <http://example.org/activities/prefect/task/019e5a1c-e0c9-75a0-be57-3aeb33f916a1> a prov:Activity ;
+        prov:endedAtTime "2026-05-24T13:11:44.404103+00:00"^^xsd:dateTime ;
+        prov:generated <http://example.org/data/imdb/staging/b5787408c759d37a/raw/title.basics.tsv.gz> ;
+        prov:startedAtTime "2026-05-24T13:11:44.285525+00:00"^^xsd:dateTime ;
+        prov:used <http://example.org/data/imdb/raw/title.basics.tsv.gz> ;
+        prov:wasAssociatedWith <http://example.org/agents/prefect/flow/24a34956-5421-490f-92c4-80a501ed4d84> .
+
+    <http://example.org/data/imdb/raw/title.basics.tsv.gz> a prov:Entity ;
+        ns1:contentHash "00cd05f417da1b7ecafb5918ba120bd558c5f38f319501263dcc603c2cb50c3e" ;
+        ns1:fileName "title.basics.tsv.gz" .
+
+    <http://example.org/data/imdb/staging/b5787408c759d37a/raw/title.basics.tsv.gz> a ns1:StagedFile,
+            prov:Entity ;
+        rdfs:label "imdb/b5787408c759d37a/raw/title.basics.tsv.gz" ;
+        ns1:contentHash "00cd05f417da1b7ecafb5918ba120bd558c5f38f319501263dcc603c2cb50c3e" ;
+        ns1:fileName "title.basics.tsv.gz" ;
+        prov:qualifiedGeneration <http://example.org/data/imdb/staging/b5787408c759d37a/raw/title.basics.tsv.gz/generation> ;
+        prov:wasDerivedFrom <http://example.org/data/imdb/raw/title.basics.tsv.gz> ;
+        prov:wasGeneratedBy <http://example.org/activities/prefect/task/019e5a1c-e0c9-75a0-be57-3aeb33f916a1> .
+}
+

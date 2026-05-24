@@ -1,0 +1,111 @@
+{
+  "source_id": "imdb",
+  "batch_id": "b5787408c759d37a",
+  "initialized_at": "2026-05-24T15:18:42.446503+00:00",
+  "transforms": [
+    {
+      "id": "name-basics",
+      "tsv": "name.basics.tsv.gz",
+      "stottr": "name.basics.stottr",
+      "transform_spec": "materialize-name-basics@v1",
+      "chunk_rows": 100000,
+      "graph_iri": "http://example.org/graph/asserted/imdb/b5787408c759d37a/name.basics"
+    },
+    {
+      "id": "title-akas",
+      "tsv": "title.akas.tsv.gz",
+      "stottr": "title.akas.stottr",
+      "transform_spec": "materialize-title-akas@v1",
+      "chunk_rows": 100000,
+      "graph_iri": "http://example.org/graph/asserted/imdb/b5787408c759d37a/title.akas"
+    },
+    {
+      "id": "title-basics",
+      "tsv": "title.basics.tsv.gz",
+      "stottr": "title.basics.stottr",
+      "transform_spec": "materialize-title-basics@v1",
+      "chunk_rows": 100000,
+      "graph_iri": "http://example.org/graph/asserted/imdb/b5787408c759d37a/title.basics"
+    },
+    {
+      "id": "title-episode",
+      "tsv": "title.episode.tsv.gz",
+      "stottr": "title.episode.stottr",
+      "transform_spec": "materialize-title-episode@v1",
+      "chunk_rows": 100000,
+      "graph_iri": "http://example.org/graph/asserted/imdb/b5787408c759d37a/title.episode"
+    },
+    {
+      "id": "title-ratings",
+      "tsv": "title.ratings.tsv.gz",
+      "stottr": "title.ratings.stottr",
+      "transform_spec": "materialize-title-ratings@v1",
+      "chunk_rows": 100000,
+      "graph_iri": "http://example.org/graph/asserted/imdb/b5787408c759d37a/title.ratings"
+    }
+  ],
+  "directories": {
+    "name.basics": {
+      "work": "graphs/work/name.basics",
+      "asserted": "graphs/asserted/name.basics",
+      "quarantine": "graphs/quarantine/name.basics",
+      "reports": "graphs/reports/name.basics"
+    },
+    "title.akas": {
+      "work": "graphs/work/title.akas",
+      "asserted": "graphs/asserted/title.akas",
+      "quarantine": "graphs/quarantine/title.akas",
+      "reports": "graphs/reports/title.akas"
+    },
+    "title.basics": {
+      "work": "graphs/work/title.basics",
+      "asserted": "graphs/asserted/title.basics",
+      "quarantine": "graphs/quarantine/title.basics",
+      "reports": "graphs/reports/title.basics"
+    },
+    "title.episode": {
+      "work": "graphs/work/title.episode",
+      "asserted": "graphs/asserted/title.episode",
+      "quarantine": "graphs/quarantine/title.episode",
+      "reports": "graphs/reports/title.episode"
+    },
+    "title.ratings": {
+      "work": "graphs/work/title.ratings",
+      "asserted": "graphs/asserted/title.ratings",
+      "quarantine": "graphs/quarantine/title.ratings",
+      "reports": "graphs/reports/title.ratings"
+    }
+  },
+  "graph_iris": {
+    "name.basics": {
+      "work": "http://example.org/graph/work/imdb/b5787408c759d37a/name.basics",
+      "asserted": "http://example.org/graph/asserted/imdb/b5787408c759d37a/name.basics",
+      "quarantine": "http://example.org/graph/quarantine/imdb/b5787408c759d37a/name.basics",
+      "reports": "http://example.org/graph/reports/imdb/b5787408c759d37a/name.basics"
+    },
+    "title.akas": {
+      "work": "http://example.org/graph/work/imdb/b5787408c759d37a/title.akas",
+      "asserted": "http://example.org/graph/asserted/imdb/b5787408c759d37a/title.akas",
+      "quarantine": "http://example.org/graph/quarantine/imdb/b5787408c759d37a/title.akas",
+      "reports": "http://example.org/graph/reports/imdb/b5787408c759d37a/title.akas"
+    },
+    "title.basics": {
+      "work": "http://example.org/graph/work/imdb/b5787408c759d37a/title.basics",
+      "asserted": "http://example.org/graph/asserted/imdb/b5787408c759d37a/title.basics",
+      "quarantine": "http://example.org/graph/quarantine/imdb/b5787408c759d37a/title.basics",
+      "reports": "http://example.org/graph/reports/imdb/b5787408c759d37a/title.basics"
+    },
+    "title.episode": {
+      "work": "http://example.org/graph/work/imdb/b5787408c759d37a/title.episode",
+      "asserted": "http://example.org/graph/asserted/imdb/b5787408c759d37a/title.episode",
+      "quarantine": "http://example.org/graph/quarantine/imdb/b5787408c759d37a/title.episode",
+      "reports": "http://example.org/graph/reports/imdb/b5787408c759d37a/title.episode"
+    },
+    "title.ratings": {
+      "work": "http://example.org/graph/work/imdb/b5787408c759d37a/title.ratings",
+      "asserted": "http://example.org/graph/asserted/imdb/b5787408c759d37a/title.ratings",
+      "quarantine": "http://example.org/graph/quarantine/imdb/b5787408c759d37a/title.ratings",
+      "reports": "http://example.org/graph/reports/imdb/b5787408c759d37a/title.ratings"
+    }
+  }
+}

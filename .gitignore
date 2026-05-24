@@ -44,7 +44,8 @@ Thumbs.db
 .prefect/
 
 # Pipeline staging outputs (data plane artifacts — regenerate via flows)
-data/
+*.tsv.gz
+
 
 # Large media files
 *.mp4

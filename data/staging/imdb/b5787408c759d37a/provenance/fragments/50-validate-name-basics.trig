@@ -1,0 +1,29 @@
+@base <http://example.org/> .
+@prefix activities: <activities/> .
+@prefix agents: <agents/> .
+@prefix data: <data/> .
+@prefix graph: <graph/> .
+@prefix pipeline: <ontology/platform/pipeline#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<graph/provenance/imdb/b5787408c759d37a> {
+    <graph/asserted/imdb/b5787408c759d37a/name.basics/generation> a prov:Generation ;
+        pipeline:recordCount 73614777 ;
+        pipeline:transformSpec "validate-tsv-graph@v1-placeholder" ;
+        prov:activity <activities/prefect/task/019e5a5f-49ee-78e3-ab47-ac8e4a2a6ee1> ;
+        prov:entity <graph/asserted/imdb/b5787408c759d37a/name.basics> .
+    <activities/prefect/task/019e5a5f-49ee-78e3-ab47-ac8e4a2a6ee1> a prov:Activity ;
+        prov:endedAtTime "2026-05-24T14:24:14.908965+00:00"^^xsd:dateTime ;
+        prov:generated <graph/asserted/imdb/b5787408c759d37a/name.basics> ;
+        prov:startedAtTime "2026-05-24T14:24:14.908965+00:00"^^xsd:dateTime ;
+        prov:used <graph/asserted/imdb/b5787408c759d37a/name.basics> ;
+        prov:wasAssociatedWith <agents/prefect/flow/91efd40c-66a9-46ff-96bf-d5b65f327445> .
+    <graph/asserted/imdb/b5787408c759d37a/name.basics> a prov:Entity ;
+        rdfs:label "validated:name-basics" ;
+        pipeline:fileName "validation.json" ;
+        prov:qualifiedGeneration <graph/asserted/imdb/b5787408c759d37a/name.basics/generation> ;
+        prov:wasDerivedFrom <graph/asserted/imdb/b5787408c759d37a/name.basics> ;
+        prov:wasGeneratedBy <activities/prefect/task/019e5a5f-49ee-78e3-ab47-ac8e4a2a6ee1> .
+}

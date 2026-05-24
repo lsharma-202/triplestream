@@ -1,0 +1,32 @@
+@prefix ns1: <http://example.org/ontology/platform/pipeline#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/graph/provenance/imdb/b5787408c759d37a> {
+    <http://example.org/data/imdb/staging/b5787408c759d37a/raw/title.ratings.tsv.gz/generation> a prov:Generation ;
+        ns1:transformSpec "land-raw-file@v1" ;
+        prov:activity <http://example.org/activities/prefect/task/019e5a1c-e0cb-7c32-b32e-8f6ae52dede6> ;
+        prov:entity <http://example.org/data/imdb/staging/b5787408c759d37a/raw/title.ratings.tsv.gz> .
+
+    <http://example.org/activities/prefect/task/019e5a1c-e0cb-7c32-b32e-8f6ae52dede6> a prov:Activity ;
+        prov:endedAtTime "2026-05-24T13:11:44.291182+00:00"^^xsd:dateTime ;
+        prov:generated <http://example.org/data/imdb/staging/b5787408c759d37a/raw/title.ratings.tsv.gz> ;
+        prov:startedAtTime "2026-05-24T13:11:44.288356+00:00"^^xsd:dateTime ;
+        prov:used <http://example.org/data/imdb/raw/title.ratings.tsv.gz> ;
+        prov:wasAssociatedWith <http://example.org/agents/prefect/flow/24a34956-5421-490f-92c4-80a501ed4d84> .
+
+    <http://example.org/data/imdb/raw/title.ratings.tsv.gz> a prov:Entity ;
+        ns1:contentHash "775e9a445fb9b3b2f78749e106457a12cf0bcb51a9057ca5395fdf1a1386b3df" ;
+        ns1:fileName "title.ratings.tsv.gz" .
+
+    <http://example.org/data/imdb/staging/b5787408c759d37a/raw/title.ratings.tsv.gz> a ns1:StagedFile,
+            prov:Entity ;
+        rdfs:label "imdb/b5787408c759d37a/raw/title.ratings.tsv.gz" ;
+        ns1:contentHash "775e9a445fb9b3b2f78749e106457a12cf0bcb51a9057ca5395fdf1a1386b3df" ;
+        ns1:fileName "title.ratings.tsv.gz" ;
+        prov:qualifiedGeneration <http://example.org/data/imdb/staging/b5787408c759d37a/raw/title.ratings.tsv.gz/generation> ;
+        prov:wasDerivedFrom <http://example.org/data/imdb/raw/title.ratings.tsv.gz> ;
+        prov:wasGeneratedBy <http://example.org/activities/prefect/task/019e5a1c-e0cb-7c32-b32e-8f6ae52dede6> .
+}
+
