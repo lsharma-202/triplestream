@@ -1,0 +1,32 @@
+PREFIX imdb-rules: <http://example.org/rules/domain/imdb#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX imdb: <http://example.org/ontology/domain/imdb#>
+
+<http://example.org/rules/domain/imdb/title-inference>
+    rdf:type owl:Ontology ;
+    rdfs:label "IMDb Title Inference Rules"@en ;
+    owl:versionInfo "v0.1.0" ;
+    rdfs:comment "SHACL SPARQL rules deriving inferred types on imdb:Title nodes."@en .
+
+imdb-rules:ClassicTitleRuleShape
+    a sh:NodeShape ;
+    sh:targetClass imdb:Title ;
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:message "Derive imdb:ClassicTitle when rating and vote thresholds are met."@en ;
+        sh:construct """
+            PREFIX imdb: <http://example.org/ontology/domain/imdb#>
+            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            CONSTRUCT {
+                $this rdf:type imdb:ClassicTitle .
+            }
+            WHERE {
+                $this imdb:averageRating ?r ;
+                      imdb:numVotes ?v .
+                FILTER (?r >= 8.0 && ?v >= 1000)
+            }
+        """
+    ] .
