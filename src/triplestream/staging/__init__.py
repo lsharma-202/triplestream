@@ -1,4 +1,4 @@
-"""Staging utilities: content hashing and batch identity."""
+"""Staging helpers for content-addressed, idempotent ingest."""
 
 from triplestream.staging.fingerprint import file_sha256, source_fingerprint
 
