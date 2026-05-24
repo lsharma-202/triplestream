@@ -1,7 +1,25 @@
 [project]
 name = "triplestream"
 version = "0.1.0"
-description = "Add your description here"
+description = "Ontology-first knowledge graph data models and ingestion pipelines"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "pyshacl>=0.31.0",
+    "rdflib>=7.6.0",
+]
+
+[project.optional-dependencies]
+pipeline = [
+    "prefect>=3.0",
+    "polars>=1.0",
+    "ottr @ git+https://github.com/Callidon/pyOTTR.git",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.9"]
+build-backend = "uv_build"
+
+[tool.uv]
+# pyOTTR declares rdflib<5 but runs against rdflib 7.x in practice.
+override-dependencies = ["rdflib>=7.6.0"]

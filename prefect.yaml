@@ -1,0 +1,17 @@
+# Prefect project config (control plane).
+# Level 1: optional — you can run flows directly without deploying.
+# Level 2+: use `uv run prefect deploy` to register scheduled runs.
+
+name: triplestream
+prefect-version: ">=3.0.0"
+
+pull:
+  - prefect.deployments.steps.set_working_directory:
+      directory: .
+
+deployments:
+  - name: imdb-raw-ingest
+    entrypoint: triplestream.pipelines.imdb.flow:imdb_raw_ingest
+    description: Stage, profile, materialize N-Quads, SHACL validate, and consolidate PROV-O for IMDB TSV files
+    work_pool:
+      name: default-agent-pool

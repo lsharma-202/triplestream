@@ -1,0 +1,56 @@
+# IMDB pipeline scope — which TSV → OTTR transforms run, and at what chunk size.
+# Prefect flows read this; pass `only_transforms=["title-basics"]` to limit blast radius.
+
+source_id = "imdb"
+
+# Default row batch for Polars → OTTR → N-Quads materialization (Level 2b).
+default_chunk_rows = 100_000
+
+[[transforms]]
+id = "name-basics"
+tsv = "name.basics.tsv.gz"
+stottr = "name.basics.stottr"
+enabled = true
+transform_spec = "materialize-name-basics@v1"
+chunk_rows = 100_000
+
+[[transforms]]
+id = "title-akas"
+tsv = "title.akas.tsv.gz"
+stottr = "title.akas.stottr"
+enabled = true
+transform_spec = "materialize-title-akas@v1"
+chunk_rows = 100_000
+
+[[transforms]]
+id = "title-basics"
+tsv = "title.basics.tsv.gz"
+stottr = "title.basics.stottr"
+enabled = true
+transform_spec = "materialize-title-basics@v1"
+chunk_rows = 100_000
+
+[[transforms]]
+id = "title-episode"
+tsv = "title.episode.tsv.gz"
+stottr = "title.episode.stottr"
+enabled = true
+transform_spec = "materialize-title-episode@v1"
+chunk_rows = 100_000
+
+[[transforms]]
+id = "title-ratings"
+tsv = "title.ratings.tsv.gz"
+stottr = "title.ratings.stottr"
+enabled = true
+transform_spec = "materialize-title-ratings@v1"
+chunk_rows = 100_000
+
+[[transforms]]
+id = "title-crew"
+tsv = "title.crew.tsv.gz"
+stottr = ""
+enabled = false
+transform_spec = "materialize-title-crew@v1"
+chunk_rows = 100_000
+notes = "Pending title.crew.stottr template."

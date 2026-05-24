@@ -1,0 +1,45 @@
+# SHACL bindings: which shape graphs apply to each materialization transform.
+# Paths are relative to the repository root. Extend as you add shapes under shapes/.
+
+source_id = "imdb"
+
+# TBox loaded into pyshacl ont_graph for every transform (vocab scheme membership checks).
+ontology = [
+    "ontology/core/core.ttl",
+    "ontology/core/core-properties.ttl",
+    "ontology/domain/imdb/imdb.ttl",
+    "ontology/domain/imdb/imdb-properties.ttl",
+    "ontology/domain/imdb/vocab/genres-skos.ttl",
+    "ontology/domain/imdb/vocab/roles-skos.ttl",
+]
+
+# Optional: shapes with pipeline:appliesToTransform in the TTL are merged at runtime.
+discover_annotations = true
+
+[[bindings]]
+transform_id = "name-basics"
+shapes = [
+    "shapes/domain/imdb/data-quality.shapes.ttl",
+    "shapes/domain/imdb/vocab-schemes.shapes.ttl",
+]
+
+[[bindings]]
+transform_id = "title-basics"
+shapes = [
+    "shapes/domain/imdb/data-quality.shapes.ttl",
+    "shapes/domain/imdb/vocab-schemes.shapes.ttl",
+]
+
+[[bindings]]
+transform_id = "title-episode"
+shapes = [
+    "shapes/domain/imdb/data-quality.shapes.ttl",
+]
+
+[[bindings]]
+transform_id = "title-akas"
+shapes = []
+
+[[bindings]]
+transform_id = "title-ratings"
+shapes = []
