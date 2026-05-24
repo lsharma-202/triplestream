@@ -45,7 +45,7 @@ Thumbs.db
 
 # Pipeline staging outputs (data plane artifacts — regenerate via flows)
 *.tsv.gz
-
+*.nq
 
 # Large media files
 *.mp4
