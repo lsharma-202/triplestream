@@ -14,7 +14,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:versionInfo "v0.1.0" ;
     rdfs:comment "SHACL NodeShapes enforcing ABox data quality on IMDb KG instance data. Covers core:Person, imdb:Title, and imdb:TVEpisode."@en .
 
-:PersonDataQualityShape
+imdb-sh:PersonDataQualityShape
     a sh:NodeShape ;
     sh:targetClass core:Person ;
     sh:name "Person data quality constraints"@en ;
@@ -35,15 +35,29 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         sh:path core:deathYear ;
         sh:datatype xsd:gYear ;
         sh:minCount 0 ;
-        sh:message "core:deathYear must be an integer when present."@en ;
+        sh:message "core:deathYear must be an xsd:gYear when present."@en ;
     ] ;
     sh:property [
         sh:path core:hasProfession ;
         sh:minCount 0 ;
-        sh:message "core:hasProfession is optional (profession details are validated by existing shapes)."@en ;
+        sh:message "core:hasProfession is optional (profession details are validated by vocab-schemes.shapes.ttl)."@en ;
+    ]
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message "deathYear must not precede birthYear when both are present."@en ;
+        sh:select """
+            PREFIX core: <http://example.org/ontology/core#>
+            SELECT $this
+            WHERE {
+                $this core:birthYear ?birth ;
+                       core:deathYear ?death .
+                FILTER (?death < ?birth)
+            }
+        """
     ] .
 
-:TitleDataQualityShape
+
+imdb-sh:TitleDataQualityShape
     a sh:NodeShape ;
     sh:targetClass imdb:Title ;
     sh:name "Title data quality constraints"@en ;
@@ -90,9 +104,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         sh:class skos:Concept ;
         sh:severity sh:Warning ;
         sh:message "imdb:hasGenre values must be skos:Concept IRIs when present."@en ;
+    ] 
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message "imdb:startYear is required when imdb:endYear is present."@en ;
+        sh:select """
+            PREFIX imdb: <http://example.org/ontology/domain/imdb#>
+            SELECT $this
+            WHERE {
+                $this imdb:endYear ?end .
+                FILTER NOT EXISTS { $this imdb:startYear ?start . }
+            }
+        """
     ] .
 
-:EpisodeDataQualityShape
+imdb-sh:EpisodeDataQualityShape
     a sh:NodeShape ;
     sh:name "Episode data quality constraints"@en ;
     sh:targetSubjectsOf imdb:episodeNumber ;

@@ -1,0 +1,57 @@
+PREFIX imdb-sh: <http://example.org/shapes/domain/imdb#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX imdb: <http://example.org/ontology/domain/imdb#>
+PREFIX core: <http://example.org/ontology/core#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX vocab: <http://example.org/ontology/domain/imdb/vocab#>
+
+<http://example.org/shapes/domain/imdb>
+    rdf:type owl:Ontology ;
+    rdfs:label "IMDb Vocabulary Scheme Shapes"@en ;
+    owl:versionInfo "v0.1.0" ;
+    rdfs:comment "SHACL constraints verifying profession and genre values belong to governed SKOS schemes."@en .
+
+imdb-sh:HasProfessionValueShape
+    a sh:NodeShape ;
+    sh:targetObjectsOf core:hasProfession ;
+    sh:name "Profession must be a valid role concept"@en ;
+    sh:nodeKind sh:IRI ;
+    sh:class skos:Concept ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message "Profession IRIs must be members of vocab:ProfessionScheme."@en ;
+        sh:select """
+            PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+            PREFIX vocab: <http://example.org/ontology/domain/imdb/vocab#>
+            SELECT $this
+            WHERE {
+                FILTER NOT EXISTS {
+                    $this skos:inScheme vocab:ProfessionScheme .
+                }
+            }
+        """
+    ] .
+
+imdb-sh:HasGenreValueShape
+    a sh:NodeShape ;
+    sh:targetObjectsOf imdb:hasGenre ;
+    sh:name "Genre must be a valid genre concept"@en ;
+    sh:nodeKind sh:IRI ;
+    sh:class skos:Concept ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message "Genre IRIs must be members of vocab:GenreScheme."@en ;
+        sh:select """
+            PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+            PREFIX vocab: <http://example.org/ontology/domain/imdb/vocab#>
+            SELECT $this
+            WHERE {
+                FILTER NOT EXISTS {
+                    $this skos:inScheme vocab:GenreScheme .
+                }
+            }
+        """
+    ] .
