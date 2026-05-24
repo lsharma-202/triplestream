@@ -1,0 +1,79 @@
+PREFIX pipeline: <http://example.org/ontology/platform/pipeline#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <http://schema.org/>
+
+
+
+pipeline:
+    rdf:type owl:Ontology ;
+    rdfs:label "pipeline Ontology"@en ;
+    owl:versionInfo "v0.1.0" ;
+    owl:versionIRI <http://example.org/ontology/platform/pipeline/v0.1.0> ;
+    rdfs:comment "Cross-platform pipeline concepts: data sources, ingest activities, named-graph conventions."@en .
+
+pipeline:DataSource
+    rdf:type owl:Class ;
+    rdfs:subClassOf prov:Entity, schema:Dataset ;
+    rdfs:label "Data Source"@en ;
+    rdfs:comment "A source dataset, feed, file collection, API, or curated reference set from which graph assertions may be derived. Use this for dataset-level provenance; attach statement-level provenance through named graphs, RDF-star, or reification only when that granularity is required."@en .
+
+pipeline:IngestBatch
+    rdf:type owl:Class ;
+    rdfs:subClassOf prov:Entity ;
+    rdfs:label "Ingest Batch"@en ;
+    rdfs:comment "One execution batch of a pipeline run (e.g. Prefect flow run), grouping staged artifacts and provenance fragments for a source."@en .
+
+pipeline:StagedFile
+    rdf:type owl:Class ;
+    rdfs:subClassOf prov:Entity ;
+    rdfs:label "Staged File"@en ;
+    rdfs:comment "A file artifact materialized in the staging data plane during ingest."@en .
+
+pipeline:ProfileReport
+    rdf:type owl:Class ;
+    rdfs:subClassOf prov:Entity ;
+    rdfs:label "Profile Report"@en ;
+    rdfs:comment "Structural metadata (row counts, columns) derived from a staged file without yet asserting domain triples."@en .
+
+pipeline:transformSpec
+    rdf:type owl:DatatypeProperty ;
+    rdfs:domain prov:Generation ;
+    rdfs:range xsd:string ;
+    rdfs:label "transform spec"@en ;
+    rdfs:comment "Versioned identifier for the code or mapping applied by an activity, e.g. land-raw-file@v1."@en .
+
+pipeline:recordCount
+    rdf:type owl:DatatypeProperty ;
+    rdfs:domain prov:Generation ;
+    rdfs:range xsd:integer ;
+    rdfs:label "record count"@en ;
+    rdfs:comment "Number of records observed or produced by a transform step, when applicable."@en .
+
+pipeline:batchId
+    rdf:type owl:DatatypeProperty ;
+    rdfs:domain pipeline:IngestBatch ;
+    rdfs:range xsd:string ;
+    rdfs:label "batch id"@en .
+
+pipeline:sourceId
+    rdf:type owl:DatatypeProperty ;
+    rdfs:domain pipeline:DataSource ;
+    rdfs:range xsd:string ;
+    rdfs:label "source id"@en .
+
+pipeline:fileName
+    rdf:type owl:DatatypeProperty ;
+    rdfs:domain prov:Entity ;
+    rdfs:range xsd:string ;
+    rdfs:label "file name"@en .
+
+pipeline:contentHash
+    rdf:type owl:DatatypeProperty ;
+    rdfs:domain prov:Entity ;
+    rdfs:range xsd:string ;
+    rdfs:label "content hash"@en ;
+    rdfs:comment "Optional SHA-256 of file bytes for idempotent ingest verification."@en .
