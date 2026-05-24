@@ -59,6 +59,13 @@ pipeline:batchId
     rdfs:range xsd:string ;
     rdfs:label "batch id"@en .
 
+pipeline:sourceFingerprint
+    rdf:type owl:DatatypeProperty ;
+    rdfs:domain pipeline:IngestBatch ;
+    rdfs:range xsd:string ;
+    rdfs:label "source fingerprint"@en ;
+    rdfs:comment "Composite SHA-256 digest over sorted raw-file content hashes; identifies an immutable source snapshot for idempotent staging."@en .
+
 pipeline:sourceId
     rdf:type owl:DatatypeProperty ;
     rdfs:domain pipeline:DataSource ;
